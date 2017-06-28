@@ -84,6 +84,15 @@ a:hover {
 		padding-top: 25%;
 		padding-bottom: 25%;
 	}
+.header-box-container {
+	padding-top: 3%;
+	padding-left: 10em;
+	padding-right: 10em;	 
+}
+.header-tiles {
+	padding-top: 1%;
+	padding-bottom: 3%;
+}
 
 .section{
 	position: relative;
@@ -113,6 +122,89 @@ a:hover {
 }
 .contact {
 	padding-bottom: 2em;
+}
+.home_page2 {
+	.header {
+		background-color: #EBDEDA;
+		background-image: none;
+		
+		h1 {
+			font-size: 2em;
+		}
+	}
+
+}
+.home_box {
+	height: 15.65em;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    img {
+    	background-repeat: no-repeat;
+    	background-size: contain;
+    	position: relative;
+		width: 100%;
+    }
+}
+
+// Tile Images 
+.tile_1 {
+	background-image: url('../images/landing_tile_1.jpg');	
+}
+.tile_2 {
+	background-image: url('../images/landing_tile_2.jpg');	
+}
+.tile_3 {
+	background-image: url('../images/landing_tile_3.png');	
+}
+.tile_4 {
+	background-image: url('../images/landing_tile_4.png');	
+}
+.tile_5 {
+	background-image: url('../images/landing_tile_5.png');	
+}
+.tile_6 {
+	background-image: url('../images/landing_tile_6.png');	
+}
+.tile_7 {
+	background-image: url('../images/landing_tile_7.png');	
+}
+.tile_8 {
+	background-image: url('../images/landing_tile_8.png');	
+}
+.tile_9 {
+	background-image: url('../images/landing_tile_9.jpg');	
+}
+ .home_box:hover {
+		.tile_text {
+			display: block;
+		}
+	} 
+.tile_text {
+	display: none;
+	background-color: rgba(62, 67, 69, 0.71);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	color: #000;
+	padding-top: 1em;
+	
+	p, h1 {
+		color: #fff;
+	}
+	p {
+	    padding-left: 1em;
+	    padding-right: 1em;
+	    text-align: center;
+	    font-size: 1.1em;
+	    letter-spacing: 0.04em;
+	}
+
+}
+.home_box:hover {
+	.tile_text {
+		display: block;
+	}
 }
 .square {
    float:left;
@@ -199,4 +291,23 @@ a:hover {
 }
 
 /* end of blog page styling */
+
+
+// Media Quaries
+
+//Mobile & Tablet
+@media screen and (max-width: 768px) {
+	.tile_text {
+		display: block;
+		padding-top: 2em;
+		font-size: 2em;
+	}
+	.home_box {
+		height: 32.65em;
+	}
+	.box-container {
+		padding-top: 1em;
+	}
+}  
+
 

@@ -84,6 +84,9 @@ a:hover {
 		padding-top: 25%;
 		padding-bottom: 25%;
 	}
+.header-box-padding {
+	padding-top: 10%;
+}
 
 .section{
 	position: relative;
