@@ -4,6 +4,7 @@ body {
 }
 html, body {
 	height: 100%;
+	overflow-x: hidden;
 }
 a {
 	cursor: pointer;
@@ -40,17 +41,17 @@ a:hover {
  .green {
  	background-color: green;
  }
- .nav {
- 	padding-top: 2em;
+
+ /* nav */
+.nav {
+	padding-top: 2em;
  	padding-bottom: 2em;
- }	
- .nav h1 {
- 		margin-top: 0;
- 		margin-bottom: 0;
- 		left: 2em;
- 		position: relative;
- 	
- 	}
+}
+
+.nav_X {
+	display: none;
+}
+
 .logo:hover {
 	letter-spacing: 0.1em;
 	
@@ -90,7 +91,6 @@ a:hover {
 	padding-right: 10em;	 
 }
 .header-tiles {
-	padding-top: 1%;
 	padding-bottom: 3%;
 }
 
@@ -298,16 +298,48 @@ a:hover {
 //Mobile & Tablet
 @media screen and (max-width: 768px) {
 	.tile_text {
-		display: block;
-		padding-top: 2em;
-		font-size: 2em;
+		display: block;		
+		font-size: 1.5em;
 	}
 	.home_box {
-		height: 32.65em;
+		height: 20.65em;
 	}
 	.box-container {
 		padding-top: 1em;
 	}
+	.header-box-container {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.tile_1 h1{
+		margin-top: 0em;
+	}
+
+	.header-tiles {
+		padding-top: 74%;
+	}
+
 }  
 
+// iPhone 6/7, iPhone 6/7 Plus,  Nexus 5X, Nexus 6p, 
+@media only screen and (min-width: 375px) and (max-width: 450px) {
+	.home_box {
+		height: 24.65em;
+	}
+	.tile_text {
+		font-size: 1.7em;
+	}
+	.header-tiles {
+		padding-top: 0%;
+	}
+}
+
+//For Nav 
+@media screen and (max-width: 600px) {
+
+	.nav_X {
+		display: block;
+	}
+	
+}
 

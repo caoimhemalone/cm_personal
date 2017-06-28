@@ -12,14 +12,14 @@ module.exports = function(grunt) {
           optimization: 2
         },
         files: {
-          "css/main.css": "src/less/custom.less" // destination file and source file
+          "css/main.css": ["src/less/custom.less" , "css/nav.css"]// destination file and source file
         }
       }
     },
     uglify: {
     my_target: {
       files: {
-        'js/main.min.js': "js/index.js"
+        'js/main.min.js': ["js/index.js", "js/fastclick.js", "js/fixed-responsive-nav.js","js/responsive-nav.js", "js/scroll.js",]
       }
     }
   } 
