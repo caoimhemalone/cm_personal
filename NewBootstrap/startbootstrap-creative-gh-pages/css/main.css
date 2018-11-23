@@ -1,0 +1,31 @@
+/*My custom CSS*/
+#page-top .peach {
+  background-color: #ea706b!important;
+}
+
+#my-header {
+  background-image: url("../../../images/header-cm.jpg");
+}
+
+.orange {
+	color: #fb6a32;
+}
+
+.blue {
+	color: #1ebbd7;
+}
+
+.yellow {
+	color: #ceca2b;
+}
+
+.header{
+	padding-top: 10% !important; /* overiding bootstrap */
+	height: 0vh !important;
+}
+
+
+.headerBio .headerBtn {
+	background-color: #1ebbd7 ;
+	border-color: #1ebbd7;
+}

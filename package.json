@@ -1,0 +1,17 @@
+{
+  "name": "key-vah",
+  "description": "Personal website",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-uglify": "^2.3.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "jit-grunt": "^0.10.0"
+  },
+  "dependencies": {
+    "grunt-contrib-coffee": "^2.0.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-sass": "^1.0.0"
+  }
+}
