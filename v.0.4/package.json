@@ -1,0 +1,36 @@
+{
+  "name": "bodynamics-new",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-coffee": "^2.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-sass": "^3.0.2",
+    "node-sass": "^4.10.0"
+  },
+  "dependencies": {
+    "compass-mixins": "^0.12.10",
+    "grunt-contrib-sass": "^1.0.0",
+    "ruby": "^0.6.1"
+  },
+  "description": "************ READ ME **************",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caoimhemalone/bodynamics_new.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caoimhemalone/bodynamics_new/issues"
+  },
+  "homepage": "https://github.com/caoimhemalone/bodynamics_new#readme"
+}
