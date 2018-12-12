@@ -11,11 +11,10 @@ $yellow: #ceca2b;
 $wine: #BA0D3E;
 
 
-.gif1 {
-  background-image: url(../images/under-construction.gif);
+.top-background {
+  background-image: url(../images/header-1.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  background-color: #FCCB4F;
   margin-top: -10em; //Bad practice but only for construcntion
 }
 .social-bar {
@@ -34,31 +33,64 @@ $wine: #BA0D3E;
 	padding: 2em;
 	border: 2px black;
   border-style: dotted;
-  //background-color: $peach;
-  //color: $white;
-  color: $dark-grey;
-  background-color: $white;
+  color: $white;
+  background-color: $dark-grey;
   margin-bottom: 2em;
   height: 90%;
 
   &:hover {
-    background-color: $wine;
+    background-color: $white;
     font-weight: bold;
     color: #000;
     cursor: pointer;
+
+    a {
+      color:#000;
+    }
   }
+
+  h2 {
+    text-decoration: underline;
+  }
+
+  a {
+    text-decoration: none;
+    color: $white;
+    }
+
+  .email {
+    text-decoration: underline;
+    font-size: 12px;
+  }
+}
 
   
 
-}
-
 .memberships {
-  //padding-bottom: 2em;
-  h3 {
-    //padding-top: 2em;
-    margin-top: 25em;
+  .construction-section {
+    padding-top: 30em;
+
+    h1, h3 {
+      color: $white;
+      text-align: center;
+      padding-bottom: 2em;
+    }
+
+    h3 {
+      text-shadow: 2px 2px 2px #414242;
+    }
+
+    img {
+      padding-left: 47.5%;
+      padding-right: 47.5%;
+      padding-bottom: 1em;
+      width: 99%;   
+    }
   }
 
+  .thing-section {
+    padding-top: 3em;
+  }
   button:focus {
     outline: 1px  $dark-grey;
     }
@@ -562,6 +594,9 @@ $radius: 50px;
 }
 
 .navbar {
+
+  border-bottom: 1px solid $white;
+
   .hamburgerBtn:focus {
     outline: none;
   }
@@ -583,6 +618,12 @@ $radius: 50px;
       color: $white;
       text-decoration: none; 
     }
+  }
+}
+
+.navbar-brand {
+  &:hover {
+    letter-spacing: 2px;
   }
 }
 
@@ -639,17 +680,7 @@ $radius: 50px;
     margin-right: 2em;
   }
 
-  .memberships {
-  //padding-bottom: 2em;
-  h3 {
-    //padding-top: 2em;
-    margin-top: 8em;
-  }
 
-  }
-  .gif1 {
-    margin-top: 0;
-  }
 
 
 }
@@ -695,9 +726,6 @@ $radius: 50px;
     margin-left: 3em;
   }
 
-  .gif1 {
-    margin-top: -6em;
-  }
 
   }
 
@@ -739,15 +767,55 @@ and (max-device-width : 1023px)  {
     margin-bottom: 2em;
   }
 
+  .top-background {
+    margin-top: 0;
+      background-image: url(../images/header-mobile.jpg);
+
+  }
+
+  .memberships {
+    .construction-section {
+      padding-top: 20em;
+
+      h1 {
+        padding-bottom: 0;
+      }
+
+      img {
+        padding-left: 45.5%;
+        padding-right: 45.5%;
+      }
+
+      h3 {
+        padding-top: 0;
+      }
+    }
+  }
+
 }
 
  @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1023px)  {
 
-    .memberships {
-    h3 {
-      margin-top: 14em;
+   .memberships {
+    .construction-section {
+      padding-top: 41em;
+
+      h1 {
+        padding-bottom: 0;
+      }
+
+      h3 {
+        padding-top: 2em;
+        padding-bottom: 4em;
+      }
+    }
+
+    .membership-option {
+      h2 {
+        font-size: 1.5rem;
+      }
     }
   }
 
@@ -821,16 +889,19 @@ and (orientation : portrait) { /* STYLE */ }
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-  .scrollToTop {
-    button {
-      bottom: 5%;
-      right: 5%;
-      padding-right: 3.75%;
-    }
-  }
+  .memberships {
+    .construction-section {
+      padding-top: 14em;
 
-  .timetable {
-    height: 36em;
+      h3 {
+       // padding-bottom: 1em;
+        //padding-top: 1em;
+      }
+    }
+
+    .thing-section {
+      padding-top: 0;
+    }
   }
 }
 
@@ -881,6 +952,12 @@ and (orientation : portrait) { /* STYLE */ }
       margin-left: 0%;
       width: 100%;
       height: 350%;
+    }
+
+    .memberships {
+      .construction-section {
+        padding-top: 19em;
+      }
     }
   
 }
@@ -1156,7 +1233,6 @@ and (orientation : portrait) { /* STYLE */ }
 .container {
   h3 {
     font-family: AvenirNextRegular,Arial,sans-serif;
-    text-transform: uppercase;
     font-weight: 10;
     letter-spacing: 1px;
   }
