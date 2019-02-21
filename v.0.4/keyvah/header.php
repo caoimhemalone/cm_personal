@@ -3,13 +3,13 @@
 <html lang="en">
 
 
-	<head>
-		
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content="Caoimhe Malone (keyvah) is an Irish Web Developer, Photographer and filmographer">
-		<meta name="title" content="key-vah">
-		<meta name="author" content="Caoimhe Malone">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Caoimhe Malone (keyvah) is an Irish Web Developer, Photographer and filmographer">
+    <meta name="title" content="key-vah">
+    <meta name="author" content="Caoimhe Malone">
 
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -22,7 +22,7 @@
 </head>
 <body <?php body_class(); ?>>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-  <a class="navbar-brand" href="#">
+  <a class="navbar-brand" href="/">
     <?php bloginfo('name'); ?>
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
