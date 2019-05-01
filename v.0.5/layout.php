@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<?php include("styles/main.css");?>
+	<style type="text/css"><?php include("styles/main.css");?></style>
 </head>
 
 
