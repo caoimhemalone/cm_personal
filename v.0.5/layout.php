@@ -6,6 +6,29 @@
 
 
 <body>
+    <main>
+        <section>
+            <div>I'm Caoimhe Malone</div>
+            
+        </section>
+        01. Resume
+
+         <section>
+            02. Portfolio
+            
+        </section>
+
+         <section>
+            03. Blog
+            
+        </section>
+
+         <section>
+            04. Contact
+            
+        </section>
+        
+    </main>
 
 
     <script src="js/main.js"></script>
