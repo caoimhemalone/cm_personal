@@ -1,17 +1,16 @@
 ************ READ ME **************
 
-https://github.com/caoimhemalone/bodynamics_new
+https://github.com/caoimhemalone/cm_personal
 
-* This is a website for Bodynamics Gym Dublin
 
 * Created by keyvah
 
 * Caoimhe Malone
 
-Project Title: Bodynamics new 2018
+Project Title: KEY-VAH Personal Website 2019
 
 Author: Caoimhe Malone (keyvah)
 
 Status: Development
 
-Site url: www.bodynamics.ie
+Site url: www.key-vah.com
