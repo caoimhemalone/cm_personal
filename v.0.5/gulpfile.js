@@ -1,25 +1,32 @@
-var gulp = require("gulp");
-var sass = require('gulp-sass');
-//var browserSync = require('browser-sync').create();
+var gulp = require('gulp'),
+		minifyCSS = require('gulp-minify-css'),
+		concat = require('gulp-concat'),
+		uglify = require('gulp-uglify'),
+		prefix = require('gulp-autoprefixer'),
+		sass = require('gulp-sass');
 
-// Specific Task
-function js() {
-    return gulp
-    .src(['scripts/main.js'])
-    .pipe(gulp.dest('scripts'))
-   // .pipe(browserSync.stream());
-}
-gulp.task(js);
+//minify JS
+gulp.task('js', function(){
+	return gulp.src('scripts/*.js')
+	.pip(uglify())
+	.pipe(gulp.dest('scripts'))
+});
 
-// Specific Task
-function gulpSass() {
-    return gulp
-    .src(['styles/*.scss'])
-    .pipe(sass())
-    .pipe(gulp.dest('styles'))
-    //.pipe(browserSync.stream());
-}
-gulp.task(gulpSass);
+// minify and concat style files
+gulp.task('css', function(){
+	return gulp.src('styles/*.scss')
+	.pipe(sass())
+	.pipe(prefix('last 2 versions'))
+	.pipe(concat('main.css'))
+	.pipe(minifyCSS({processImport: false}))
+	.pipe(gulp.dest('styles'))
+});
 
-// Run multiple tasks
-gulp.task('start', gulp.series(js, gulpSass));
+gulp.task('build', function(){
+	gulp.run('css')
+	gulp.watch('styles/*.scss', ['css']);
+	/*gulp.run('js')
+	gulp.watch('sass/*.scss', function(){
+		gulp.run('styles')
+	})*/
+});
