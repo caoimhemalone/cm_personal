@@ -1,6 +1,7 @@
 //Colors
 $peach : #dc8168;
 $white : #fff;
+$dark-green: #112d34;
 
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 //Generic
@@ -19,7 +20,7 @@ body {
     font-family: 'Poppins', sans-serif !important;
     -webkit-font-smoothing: antialiased;
     line-height: 30px;
-    color: #727272;
+    color: $dark-green !important;
     font-size: 16px;
     font-weight: 300;
     line-height: 2.2;
@@ -92,7 +93,7 @@ small {
 
 a {
 	transition: all 0.3s;
-	color: $peach;
+	color: $peach !important; //Override Bootstrap
 	text-decoration: none;
 
 	&:hover, &:focus {
@@ -198,8 +199,8 @@ img {
 }
 
 .home.img-bg {
-	//background: url('../header-1.jpg') 0 0;
-    //background-size: cover;
+	background: url('../header-1.jpg') 0 0;
+    background-size: cover;
 }
 
 .home .bgScroll {
@@ -239,7 +240,7 @@ img {
 }
 
 .overlay {
-    background-color: rgba(0, 0, 0, 1);
+    //background-color: rgba(0, 0, 0, 1);
     height: 100%;
     position: fixed;
     width: 100%;	
@@ -295,7 +296,7 @@ h2.menu-item {
 	    left: -20px;
 	    width: 70px;
 	    height: 1px;
-	    background: $white;
+	    background: $peach;
 	    transition: all 0.5s ease;
     }
 }
@@ -339,8 +340,8 @@ h2.contact.menu-item:before {
 	background: #F1F3F6;
     position: fixed;
     height: 40px;
-    width: 69%;
-    right: 13px;
+    width: 70%;
+    right: 0;
     top: -50px;
     transition: all 0.5s;
     z-index: 1;
@@ -368,10 +369,10 @@ h2.contact.menu-item:before {
 	    line-height: 40px;
 	    margin-top: -5px;
 	    padding: 0 15px;
-	    color: #666;
+	    color: $dark-green;
 
 	    &:hover {
-	    	color: $white;
+	    	color: $peach;
 	    }
     }
 
@@ -468,7 +469,6 @@ h2.contact.menu-item:before {
 .block-title {
     font-size: 24px;
     text-transform: uppercase;
-    color: #333;
     padding-bottom: 15px;
     border-bottom: 1px solid #ddd;
     margin-bottom: 30px;
@@ -525,23 +525,25 @@ h2.contact.menu-item:before {
     h1, h2 {
         text-transform: capitalize;
         font-weight: 700;
-        color: #FFF;
         margin-bottom: 10px;
         text-transform: uppercase;
     }
 
     h1 {
+        color: $white;
         span {
             font-size: 26px;
             font-weight: 300;
             display: block;
             text-transform: capitalize;
+            color: $white;
         }
     }
 
     h2 {
        font-size: 26px;
         min-height: 26px; 
+        color: $white;
     }
 }
 
@@ -562,7 +564,6 @@ h2.contact.menu-item:before {
 
     a {
         border: 2px solid #FFF;
-        color: #FFF;
         display: inline-block;
         height: 35px;
         width: 35px;
@@ -595,7 +596,7 @@ h2.contact.menu-item:before {
 .about-block-container {
     display: table-cell;
     vertical-align: middle;
-    padding: 150px 0 0 70px;
+    padding: 150px 0 0 30px;
     -ms-transform: rotate(34deg);
     -webkit-transform: rotate(34deg);
     transform: rotate(34deg);
@@ -1750,7 +1751,7 @@ h4.package {
         left: -20px;
         width: 70px;
         height: 1px;
-        background: #FFF;
+        background: $peach;
         transition: all 0.5s ease;
     }
     .social {
@@ -1833,7 +1834,7 @@ h4.package {
         left: -20px;
         width: 70px;
         height: 1px;
-        background: #FFF;
+        background: $peach;
         transition: all 0.5s ease;
     }
     .menu-block:hover h2.menu-item:before {

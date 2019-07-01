@@ -17,14 +17,24 @@ $(".menu-block").click(function() {
 });
 
 $(".inline-menu .about").click(function() {
-	$(".about").toggleClass("showx");
+	$(".content-blocks").removeClass("showx");
+	$(".content-blocks.about").toggleClass("showx");
 });
 $(".inline-menu .portfolio").click(function() {
-	$(".portfolio").toggleClass("showx");
+	$(".content-blocks").removeClass("showx");
+	$(".content-blocks.portfolio").toggleClass("showx");
 });
 $(".inline-menu .blog").click(function() {
-	$(".blog").toggleClass("showx");
+	$(".content-blocks").removeClass("showx");
+	$(".content-blocks.blog").toggleClass("showx");
 });
 $(".inline-menu .contact").click(function() {
-	$(".contact").toggleClass("showx");
+	$(".content-blocks").removeClass("showx");
+	$(".content-blocks.contact").toggleClass("showx");
+});
+
+$(".inline-menu #close").click(function() {
+	$(".content-blocks").removeClass("showx");
+	$(".menu-blocks").removeClass("hidex");
+	$(".inline-menu-container").removeClass("showx");
 });
