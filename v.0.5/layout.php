@@ -1,43 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+
+     <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>key-vah | Caoimhe Malone</title>
+    <meta name="description" content="keyvah.com | Caoimhe Malone">
+    <meta name="author" content="Caoimhe Malone" />
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+    <link rel="stylesheet" href="styles/plugins.min.css" type="text/css" media="screen" />
+    <!-- <link rel="stylesheet" href="styles/main.css" type="text/css" media="screen" /> -->
+    <link href="Bootstrap/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="   crossorigin="anonymous"></script>
+
 	<style type="text/css"><?php include("styles/main.css");?></style>
 </head>
 
 
 <body>
-       <section class="home">
-        <div class="overlay"></div>
-        <!--<ul>
-            <li class="item-1"><div class="item-option">Hi I'm Caoimhe Malone (KEY-VAH) </br> Web Developer & Photographer</div></li>
-            <li class="item-2"><div class="item-option">01. Resume</div></li>
-            <li class="item-3"><div class="item-option">02. Photography</div></li>
-            <li class="item-4"><div class="item-option">03. Web Development</div></li>
-            <li class="item-5"><div class="item-option"> 04. Blog</div></li>
-            <li class="item-6"><div class="item-option">05. Contact</div></li>
-        </ul>-->
+    <section class="all-content">
+        <?php include("includes/inlinemenu.php");?>
+        <?php include("includes/home.php");?>
 
-        <div class="name-block">
-            <div class="name-block-container">
-                <h1><span>Hi, I'm</span> Caoimhe Malone (Key-vah)</h1>
-                <h2>Web Developer & Photographer</h2>
-            </div>
-        </div>
-
-        <div class="menu-blocks">
-            <div class="about-block menu-block">
-                <div class="about-block-container">
-                    <h2 class="about menu-item">Resume</h2>
-                </div>
-            </div>
-            <div class="portfolio-block menu-block">
-                <div class="portfolio-block-container">
-                    <h2 class="portfolio menu-item">Portfolio</h2>
-                </div>
-            </div>
-        </div>
     </section>
 
     <script><?php include("scripts/main.js");?></script>
+    <script src="scripts/plugins.min.js"></script>
 </body>
 </html>

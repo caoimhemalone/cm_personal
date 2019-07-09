@@ -38,3 +38,59 @@ $(".inline-menu #close").click(function() {
 	$(".menu-blocks").removeClass("hidex");
 	$(".inline-menu-container").removeClass("showx");
 });
+
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("portfolio-item");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+
+    if (x[i].className.indexOf(c) > -1) 
+      w3AddClass(x[i], "show");
+    //x[i].style.display = "table-cell";
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+//Portfolio Modal
+	$(document).on('click', '.open-project', function() {
+	    var projectUrl = $(this).attr("href");
+	    $('.inline-menu-container').removeClass('showx');
+	    $('.sidebar-menu').addClass('hidex');
+	    $('.content-blocks.pop').addClass('showx');
+	    $('.content-blocks.pop section').load(projectUrl+' .load-data > *');
+	    return false;
+	});
+
+	//Blog post Modal
+	$('.open-post').on('click', function() {
+	    var postUrl = $(this).attr("href");
+	    $('.inline-menu-container').removeClass('showx');
+	    $('.sidebar-menu').addClass('hidex');
+	    $('.content-blocks.pop').addClass('showx');
+	    $('.content-blocks.pop section').load(postUrl);
+	    return false;
+	});
+

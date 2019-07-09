@@ -77,7 +77,7 @@
                         <div class="info-list row">
                             <div class="col-sm-6"><span>Name : </span> Caoimhe Malone (key-vah)</div>
                             <div class="col-sm-6"><span>Date of birth : </span> September 2, 1995 </div>
-                            <div class="col-sm-6"><span>Email : </span> caoimhegmalone@gmail.com</div>
+                            <div class="col-sm-6"><span>Email : </span> <a href="mailto:caoimhegmalone@gmail.com" target="_top">caoimhegmalone@gmail.com</a></div>
                             <div class="col-sm-6"><span>Instagram : </span> <a href="https://www.instagram.com/caoimhemalone" target="_blank">@caoimhemalone</a></div>
                              <div class="col-sm-6"><span>Twitter: </span> <a href="https://www.twitter.com/caoimhemalone95" target="_blank">@caoimhemalone95</a></div>
                               <div class="col-sm-6"><span>Youtube : </span> <a href="https://www.youtube.com/keyvah" target="_blank">keyvah</a></div>
@@ -94,8 +94,8 @@
                         </div>
                         <label class="progress-bar-label">Wordpress - <span>1 year experience</span></label>
                         <div class="progress">
-                            <div style="width: 87%;" class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                <span>75%</span>
+                            <div style="width: 55%;" class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                                <span>55%</span>
                             </div>
                         </div>
                         <label class="progress-bar-label">Photoshop - <span>7 years experience</span></label>
@@ -121,6 +121,12 @@
                         <div class="progress">
                             <div style="width: 67%;" class="progress-bar" role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100">
                                 <span>67%</span>
+                            </div>
+                        </div>
+                        <label class="progress-bar-label">PHP - <span>1 year experience</span></label>
+                        <div class="progress">
+                            <div style="width: 62%;" class="progress-bar" role="progressbar" aria-valuenow="62" aria-valuemin="0" aria-valuemax="100">
+                                <span>62%</span>
                             </div>
                         </div>
                     </div>
@@ -210,8 +216,8 @@
                     </div>
                     
                     <div class="row text-center">
-                        <div class="col-md-12 btn-email">
-                            <a class="btn lowercase">caoimhegmalone@gmail.com</a>
+                        <div class="col-md-12 btn-email">        
+                            <a class="btn lowercase" href="mailto:caoimhegmalone@gmail.com" target="_top">caoimhegmalone@gmail.com</a>
                         </div>
                     </div>
                 </section>
@@ -225,10 +231,10 @@
                                 <div class="filters">
                                     <span>Filters :</span>
                                     <ul id="filters">
-                                        <li class="active" data-filter="*">All</li>
-                                        <li data-filter=".artwork">Art Work</li>
-                                        <li data-filter=".webdesign">Web Design</li>
-                                        <li data-filter=".design">Design</li>
+                                        <li onclick="filterSelection('all')" class="active" data-filter="*">All</li>
+                                        <li class="artwork" data-filter=".artwork" onclick="filterSelection('artwork')">Art Work</li>
+                                        <li class="webdesign" data-filter=".webdesign" onclick="filterSelection('webdesign')">Web Design</li>
+                                        <li class="design" data-filter=".design" onclick="filterSelection('design')">Design</li>
                                     </ul>
                                 </div>
                                 <div class="portfolio-container row isotope" id="portfolio-container">
@@ -405,88 +411,28 @@
                                 <div class="post">
                                     <div class="post-thumbnail">
                                         <a class="open-post" href="post-single.html">
-                                            <img src="" alt="">
+                                            <img src="desk.jpeg" alt="desk">
                                         </a>
                                     </div>
                                     <div class="post-title">
-                                        <a class="open-post" href="post-single.html"><h2>Typography for web</h2></a>
+                                        <a class="open-post" href="post-single.html"><h2>Why I don’t think the 5am club is the only way to be productive</h2></a>
                                         <p class="post-info">
-                                            <span class="post-author">Posted by John Sparrow</span>
+                                            <span class="post-author">Caoimhe Malone</span>
                                             <span class="slash"></span>
-                                            <span class="post-date">Dec 08, 2017</span>
+                                            <span class="post-date">Jan 31, 2019</span>
                                             <span class="slash"></span>
-                                            <span class="post-catetory">Food</span>
+                                            <span class="post-catetory">Productivity</span>
                                         </p>
                                     </div>
                                     <div class="post-body">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non enim ut enim fringilla adipiscing id in lorem. Quisque aliquet neque vitae lectus tempus consectetur. Aliquam erat volutpat. Nunc eu nibh nulla, id cursus arcu. </p>
+                                        <p>This started off as a journal entry but I decided that it was actually a good topic to write about.I’ve been thinking a lot about the 5am club. I’ve heard about it on many podcasts and have read numerous medium articles on the subject. I would 100% join the 5am club instead of staying up until</p>
                                         <a class="btn open-post" href="post-single.html">Read More</a>
                                     </div>
                                 </div>
-                                <div class="post">
-                                    <div class="post-thumbnail">
-                                        <a class="open-post" href="post-single.html">
-                                            <img src="" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="post-title">
-                                        <a class="open-post" href="post-single.html"><h2>Typography for web</h2></a>
-                                        <p class="post-info">
-                                            <span class="post-author">Posted by John Sparrow</span>
-                                            <span class="slash"></span>
-                                            <span class="post-date">Dec 08, 2017</span>
-                                            <span class="slash"></span>
-                                            <span class="post-catetory">Food</span>
-                                        </p>
-                                    </div>
-                                    <div class="post-body">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non enim ut enim fringilla adipiscing id in lorem. Quisque aliquet neque vitae lectus tempus consectetur. Aliquam erat volutpat. Nunc eu nibh nulla, id cursus arcu. </p>
-                                        <a class="btn open-post" href="post-single.html">Read More</a>
-                                    </div>
-                                </div>
-                                <div class="post">
-                                    <div class="post-thumbnail">
-                                        <a class="open-post" href="post-single.html">
-                                            <img src="" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="post-title">
-                                        <a class="open-post" href="post-single.html"><h2>Typography for web</h2></a>
-                                        <p class="post-info">
-                                            <span class="post-author">Posted by John Sparrow</span>
-                                            <span class="slash"></span>
-                                            <span class="post-date">Dec 08, 2017</span>
-                                            <span class="slash"></span>
-                                            <span class="post-catetory">Food</span>
-                                        </p>
-                                    </div>
-                                    <div class="post-body">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non enim ut enim fringilla adipiscing id in lorem. Quisque aliquet neque vitae lectus tempus consectetur. Aliquam erat volutpat. Nunc eu nibh nulla, id cursus arcu. </p>
-                                        <a class="btn open-post" href="post-single.html">Read More</a>
-                                    </div>
-                                </div>
-                                <div class="post">
-                                    <div class="post-thumbnail">
-                                        <a class="open-post" href="post-single.html">
-                                            <img src="" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="post-title">
-                                        <a class="open-post" href="post-single.html"><h2>Typography for web</h2></a>
-                                        <p class="post-info">
-                                            <span class="post-author">Posted by John Sparrow</span>
-                                            <span class="slash"></span>
-                                            <span class="post-date">Dec 08, 2017</span>
-                                            <span class="slash"></span>
-                                            <span class="post-catetory">Food</span>
-                                        </p>
-                                    </div>
-                                    <div class="post-body">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non enim ut enim fringilla adipiscing id in lorem. Quisque aliquet neque vitae lectus tempus consectetur. Aliquam erat volutpat. Nunc eu nibh nulla, id cursus arcu. </p>
-                                        <a class="btn open-post" href="post-single.html">Read More</a>
-                                    </div>
-                                </div>
-                                <div class="text-center">
+                               
+                                
+                               
+                                <!-- <div class="text-center">
                                     <ul class="pagination">
                                         <li class="page-item disabled">
                                           <a class="page-link" href="#" tabindex="-1">Previous</a>
@@ -501,7 +447,7 @@
                                           <a class="page-link" href="#">Next</a>
                                         </li>
                                     </ul>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -513,9 +459,9 @@
                         <h3 class="block-title">Get in touch</h3>
                         <div class="row">
                             <div class="col-md-6">
-                                <form class="contact-form" action="send_mail.php" method="post" id="contact_form">
+                              <form class="contact-form" action="send_mail.php" method="post">
                                     <div class="form-control-wrap">
-                                        <div id="message" class="alert alert-danger alert-dismissible fade"></div>
+                                        <!-- <div id="message" class="alert alert-danger alert-dismissible fade"></div> -->
                                         <div class="form-group">
                                             <input type="text" class="form-control" id="fname" placeholder="Name*" name="fname">
                                         </div>
@@ -526,14 +472,15 @@
                                             <textarea class="form-control" rows="10" name="comment" id="comment" placeholder="Your Message"></textarea>
                                         </div>
                                         <div class="form-group mar-top-40">
-                                            <button type="submit" class="btn v7">Send Message</button>
-                                        </div>
+                                     		<input class="btn v7" id="submitBtn" type="submit" value="Send Message">
+                                     	</div>
                                     </div>
-                                </form>
+                                </form> 
+
                             </div>
 
                             <div class="col-md-5 offset-md-1">
-                                <div class="contact-content">
+                                <!-- <div class="contact-content">
                                     <div class="contact-icon">
                                         <i class="ion-ios-location-outline"></i>
                                     </div>
@@ -541,8 +488,8 @@
                                         <h5>Address</h5>
                                         <p>234 House, Baker Street, London, EL10 6 BG</p>
                                     </div>
-                                </div>
-                                <div class="contact-content">
+                                </div> -->
+                               <!--  <div class="contact-content">
                                     <div class="contact-icon">
                                         <i class="ion-ios-telephone-outline"></i>
                                     </div>
@@ -550,21 +497,16 @@
                                         <h5>Call Us</h5>
                                         <p> <a href="tel:+4402920111222">+44 - 02920111222</a></p>
                                     </div>
-                                </div>
+                                </div> -->
                                 <div class="contact-content">
                                     <div class="contact-icon">
                                         <i class="ion-ios-email-outline"></i>
                                     </div>
                                     <div class="contact-details">
                                         <h5>Enquiries</h5>
-                                        <p>alpha@james.com</p>
+                                        <p><a href="mailto:caoimhegmalone@gmail.com" target="_top">caoimhegmalone@gmail.com</a></p>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md-12">
-                                <!--Google Map-->
-                                <div id="map"></div>
-                                <!--Google Map End-->
                             </div>
                         </div>
                     </div>
@@ -572,7 +514,9 @@
             </div>
             <div class="content-blocks pop">
                 <div id="close-pop" class="close-pop">Close <i class="ion-ios-close-empty"></i></div>
-                <section class="content"></section>
+                <!-- <section class="content">
+                	
+                </section> -->
             </div>
         </div>
 

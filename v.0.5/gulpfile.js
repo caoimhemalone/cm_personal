@@ -8,8 +8,8 @@ var gulp = require('gulp'),
 //minify JS
 gulp.task('js', function(){
 	return gulp.src('scripts/*.js')
-	.pip(uglify())
-	.pipe(gulp.dest('scripts'))
+	.pipe(uglify())
+	.pipe(gulp.dest('scripts/min'))
 });
 
 // minify and concat style files
@@ -25,8 +25,8 @@ gulp.task('css', function(){
 gulp.task('build', function(){
 	gulp.run('css')
 	gulp.watch('styles/*.scss', ['css']);
-	/*gulp.run('js')
+	gulp.run('js')
 	gulp.watch('sass/*.scss', function(){
 		gulp.run('styles')
-	})*/
+	})
 });

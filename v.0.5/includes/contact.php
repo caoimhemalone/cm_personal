@@ -1,31 +1,31 @@
-<div class="content-blocks contact">
+ <div class="content-blocks contact">
     <section class="content">
         <div class="block-content">
             <h3 class="block-title">Get in touch</h3>
             <div class="row">
                 <div class="col-md-6">
-                    <form id="contactForm" data-toggle="validator" class="contact-form shake">
-                        <div class="form-group">
-                            <input id="name" type="text" class="form-control" name="Name" autocomplete="off" required data-error="Please enter your name" placeholder="* Your Name">
-                            <div class="help-block with-errors"></div>
+                  <form class="contact-form" action="send_mail.php" method="post">
+                        <div class="form-control-wrap">
+                            <!-- <div id="message" class="alert alert-danger alert-dismissible fade"></div> -->
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="fname" placeholder="Name*" name="fname">
+                            </div>
+                            <div class="form-group mar-top-40">
+                                <input type="email" class="form-control" id="email" placeholder="email*" name="email">
+                            </div>
+                            <div class="form-group mar-top-60">
+                                <textarea class="form-control" rows="10" name="comment" id="comment" placeholder="Your Message"></textarea>
+                            </div>
+                            <div class="form-group mar-top-40">
+                                <input class="btn v7" id="submitBtn" type="submit" value="Send Message">
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <input id="email" type="email" class="form-control" name="email" autocomplete="off" required data-error="Please enter your email" placeholder="* Your Email">
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <textarea id="message" class="form-control textarea" rows="10" name="Message" required data-error="Please enter your message subject" placeholder="* Your Message"></textarea>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <button id="submit" type="submit" class="btn selected">Send Message</button>
-                            <div id="msgSubmit" class="h3 text-center hidden"></div>
-                        </div>
-                    </form>
+                    </form> 
+
                 </div>
 
                 <div class="col-md-5 offset-md-1">
-                    <div class="contact-content">
+                    <!-- <div class="contact-content">
                         <div class="contact-icon">
                             <i class="ion-ios-location-outline"></i>
                         </div>
@@ -33,8 +33,8 @@
                             <h5>Address</h5>
                             <p>234 House, Baker Street, London, EL10 6 BG</p>
                         </div>
-                    </div>
-                    <div class="contact-content">
+                    </div> -->
+                   <!--  <div class="contact-content">
                         <div class="contact-icon">
                             <i class="ion-ios-telephone-outline"></i>
                         </div>
@@ -42,27 +42,18 @@
                             <h5>Call Us</h5>
                             <p> <a href="tel:+4402920111222">+44 - 02920111222</a></p>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="contact-content">
                         <div class="contact-icon">
                             <i class="ion-ios-email-outline"></i>
                         </div>
                         <div class="contact-details">
                             <h5>Enquiries</h5>
-                            <p>alpha@james.com</p>
+                            <p><a href="mailto:caoimhegmalone@gmail.com" target="_top">caoimhegmalone@gmail.com</a></p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-12">
-                    <!--Google Map-->
-                    <div id="map"></div>
-                    <!--Google Map End-->
                 </div>
             </div>
         </div>
     </section>
- </div>
-<div class="content-blocks pop">
-    <div id="close-pop" class="close-pop">Close <i class="ion-ios-close-empty"></i></div>
-    <section class="content"></section>
 </div>
