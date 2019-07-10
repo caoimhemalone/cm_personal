@@ -71,21 +71,27 @@
                                     <h4><span>Frontend Web Developer</span> @ Gambling.com Group</h4>
                                     <h5>September 2018 - <span class="current">Present</span></h5>
                                 </div>
-                                <p>Ut enim ad minim veniam, quis nostrud exerc. Irure dolor in reprehend incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                <p>I am a Frontend Web Developer for KAX Media part of <a href="https://www.gambling.com/corporate" target="_blank">Gambling.com Group </a>. We make gambling affiliate websites which serve 20+ countries including many US States which have overturned their online gambling laws. My team maintains and creates 30+ sites. In the past year I have created 4 websites which I maintain as well as my main site; <a href="https://www.casinosource.ie" target="_blank">CasinoSource</a>. Check out my <a href="">portfolio </a>for a full list of my sites</p>
                             </div>
                             <div class="exp">
                                 <div class="hgroup">
                                     <h4><span>Photographer - Freelance</span> @ Bodynamics </h4>
                                     <h5>Jan 2019 - May 2019</h5>
                                 </div>
-                                <p>Ut enim ad minim veniam, quis nostrud exerc. Irure dolor in reprehend incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                <p>For many years I have had an interest in photography and videography. With college and work my options for distribution were limited to <a href="https://www.instagram.com/caoimhemalone" target="_blank">Instagram</a> and <a target="_blank" href="https://www.youtube.com/keyvah">YouTube</a>. Since graduating college I have since been able to do photography freelance. See my collection of photos <a class="">here</a></p>
                             </div>
                             <div class="exp">
                                 <div class="hgroup">
                                     <h4><span>Intern</span> @ Gambling.com Group </h4>
                                     <h5>January 2017 - August 2017</h5>
                                 </div>
-                                <p>Ut enim ad minim veniam, quis nostrud exerc. Irure dolor in reprehend incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                <p>As part of my third year in college I was required to get a 6 month internship in a field related to my degree; Computer Science. I was lucky enough to spend 9 months working as a QA and Frontend Web Developer Intern for KAX Media. During this time I extended my knowledge of the web developing world immensely which shaped my for the career I have today. </p>
+                            </div>
+
+                            <div class="row text-center">
+                                <div class="col-md-12">        
+                                    <a class="btn lowercase" href="https://www.linkedin.com/in/caoimhemalone/" target="_blank">Full Work Experience Here</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -103,14 +109,12 @@
                                     <h4>BSc(Hons) in Computer Science | <span>National College of Ireland</span></h4>
                                     <h5>Sep 2014 - May 2018</h5>
                                 </div>
-                                <p>Ut enim ad minim veniam, quis nostrud exerc. Irure dolor in reprehend incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                             </div>
                             <div class="exp">
                                 <div class="hgroup">
                                     <h4>Leaving Cert | <span>Maryfield College</span></h4>
                                     <h5>September 2008 - May 2014</h5>
                                 </div>
-                                <p>Ut enim ad minim veniam, quis nostrud exerc. Irure dolor in reprehend incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                             </div>
                         </div>
                     </div>
@@ -125,21 +129,21 @@
                         <i class="ion-laptop"></i>
                     </div>
                     <h4>Web Development</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p> -->
                 </div>
                 <div class="col-md-4 col-sm-6 service">
                     <div class="service-icon">
                         <i class="ion-camera"></i>
                     </div>
                     <h4>Photography</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p> -->
                 </div>
                 <div class="col-md-4 col-sm-6 service">
                     <div class="service-icon">
                         <i class="ion-film-marker"></i>
                     </div>
                     <h4>Videography</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                   <!--  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p> -->
                 </div>
                 
             </div>

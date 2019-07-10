@@ -16,7 +16,7 @@
                     <div class="portfolio-container row isotope" id="portfolio-container">
                         <!-- WORK 1 START -->
                         <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item artwork">
-                            <a class="open-project" href="project-1.html">
+                            <a class="open-project" href="project-1.php">
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">

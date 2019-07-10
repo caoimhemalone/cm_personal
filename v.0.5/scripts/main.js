@@ -1,14 +1,14 @@
 $(".about-block").click(function() {
-	$(".about").toggleClass("showx");
+	$(".content-blocks.about").toggleClass("showx");
 });
 $(".portfolio-block").click(function() {
-	$(".portfolio").toggleClass("showx");
+	$(".content-blocks.portfolio").toggleClass("showx");
 });
 $(".blog-block").click(function() {
-	$(".blog").toggleClass("showx");
+	$(".content-blocks.blog").toggleClass("showx");
 });
 $(".contact-block").click(function() {
-	$(".contact").toggleClass("showx");
+	$(".content-blocks.contact").toggleClass("showx");
 });
 
 $(".menu-block").click(function() {
@@ -74,23 +74,5 @@ function w3RemoveClass(element, name) {
   element.className = arr1.join(" ");
 }
 
-//Portfolio Modal
-	$(document).on('click', '.open-project', function() {
-	    var projectUrl = $(this).attr("href");
-	    $('.inline-menu-container').removeClass('showx');
-	    $('.sidebar-menu').addClass('hidex');
-	    $('.content-blocks.pop').addClass('showx');
-	    $('.content-blocks.pop section').load(projectUrl+' .load-data > *');
-	    return false;
-	});
 
-	//Blog post Modal
-	$('.open-post').on('click', function() {
-	    var postUrl = $(this).attr("href");
-	    $('.inline-menu-container').removeClass('showx');
-	    $('.sidebar-menu').addClass('hidex');
-	    $('.content-blocks.pop').addClass('showx');
-	    $('.content-blocks.pop section').load(postUrl);
-	    return false;
-	});
 

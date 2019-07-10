@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 35px;
     line-height: 60px;
     margin-top: 0;
     margin-bottom: 0;
@@ -100,6 +100,10 @@ a {
 		text-decoration: none;
 		outline: none;
 	}
+
+    &:hover {
+        color: $dark-green;
+    }
 }
 
 a[href^="tel:"] {
@@ -207,8 +211,12 @@ img {
 }
 
 .home.img-bg {
-	background: url('../header-1.jpg') 0 0;
+	background: url('header-1.jpg') 0 0;
     background-size: cover;
+
+    @media only screen and (max-width: 800px) {
+        background-position: center;
+    }
 }
 
 .home .bgScroll {
@@ -353,15 +361,25 @@ h2.contact.menu-item:before {
     top: -50px;
     transition: all 0.5s;
     z-index: 1;
+
+    .status {
+        padding-left: 1.5em;
+        cursor: initial;
+    }
 }
 
 .inline-menu-container.showx {
 	top: 0;
+
+    #close i{
+        display: block;
+    }
 }
 
 #close i {
 	font-size: 30px;
 	vertical-align: middle;
+    display: none;
 }
 
 .inline-menu {
@@ -730,6 +748,12 @@ h2.contact.menu-item:before {
         color: #ddd;
         font-size: 36px;
         line-height: 45px;
+    }
+
+    .btn {
+        &:hover {
+            color: $dark-green;
+        }
     }
 }
 
@@ -1355,6 +1379,65 @@ h4.package {
     }
 }
 
+.blog-post-content {
+    .inline-menu-container {
+        width: 100%;
+    }
+
+    .block-content {
+        margin-right:20%;
+        margin-left: 20%;
+
+        @media only screen and (max-width: 800px) {
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+        p {
+            font: 400 14px 'Poppins', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            line-height: 30px;
+            color: #727272;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 2.2;
+        }
+
+        .author-box {
+            p {
+                font-size:13px;
+            }
+        }
+
+        #blog-social {
+            li {
+                &:first-child {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .post-info {
+        .slash {
+            color: $white;
+        }
+    }
+
+    h1 {
+        @media only screen and (max-width: 1024px) and (min-width: 800px) {
+            margin: 0 1em;
+        }
+    }
+
+    .inline-menu {
+        margin-right: 28px;
+    }
+}
+
+.rounded-circle {
+    border-radius: 50%;
+}
 
 //Contact
 
@@ -1659,7 +1742,7 @@ h4.package {
     }
 
     .inline-menu-container {
-        font-size: 14px;
+        font-size: 13px;
         right: 10px;
         width: 69%;
     }
@@ -1948,10 +2031,10 @@ h4.package {
         font-size: 22px;
     }
     .name-block-container h1 {
-        font-size: 36px;
+        font-size: 32px;
     }
     .name-block-container h2 {
-        font-size: 22px;
+        font-size: 16px;
         min-height: 22px;
     }
     h2.menu-item {
@@ -1970,7 +2053,7 @@ h4.package {
         left: -20px;
     }
     h2.menu-item:after {
-        display: none;
+        width: 19px;
     }
     .social {
         display: none;
@@ -1998,7 +2081,7 @@ h4.package {
 
 @media (max-width:576px) {
     .single-post-title h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
     .comment .col-sm-2 {
         width: 16.6667%;

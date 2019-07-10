@@ -1,7 +1,7 @@
 <section class="home img-bg">
     <div class="overlay opacity5"></div>
     <div class="container">
-        <?php include("includes/home_block.php");?>
+        <?php include("includes/home_blocks.php");?>
         <?php include("includes/about.php");?>
        <?php include("includes/portfolio.php");?>
        <?php include("includes/blog.php");?>

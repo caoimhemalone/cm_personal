@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
     <link rel="stylesheet" href="styles/plugins.min.css" type="text/css" media="screen" />
     <!-- <link rel="stylesheet" href="styles/main.css" type="text/css" media="screen" /> -->
-    <link href="Bootstrap/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="   crossorigin="anonymous"></script>
 
@@ -25,11 +25,12 @@
 <body>
     <section class="all-content">
         <?php include("includes/inlinemenu.php");?>
-        <?php include("includes/home.php");?>
+        <?php include("home.php");?>
 
     </section>
 
-    <script><?php include("scripts/main.js");?></script>
+    <script><?php include("scripts/min/main.js");?></script>
     <script src="scripts/plugins.min.js"></script>
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

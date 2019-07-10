@@ -1,7 +1,7 @@
 <div class="name-block">
     <div class="name-block-container">
-        <h1><span>Hi, I'm</span>Caoimhe Malone (Key-vah)</h1>
-        <h2>Designer & Developer</h2>
+        <h1><span>Hi, I'm</span>Caoimhe Malone </br>(Key-vah)</h1>
+        <h2>Developer & Photographer</h2>
         <ul class="social">
             <li><a target="_blank" href="https://www.instagram.com/caoimhemalone"><i class="ion-social-instagram"></i></a></li>
             <li><a target="_blank" href="https://www.twitter.com/caoimhemalone95"><i class="ion-social-twitter" ></i></a></li>

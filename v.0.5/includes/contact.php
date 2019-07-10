@@ -1,4 +1,4 @@
- <div class="content-blocks contact">
+<div class="content-blocks contact">
     <section class="content">
         <div class="block-content">
             <h3 class="block-title">Get in touch</h3>
