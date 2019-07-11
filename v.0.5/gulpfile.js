@@ -1,3 +1,4 @@
+//If you get error on irst go revert to v.3 of gulp
 var gulp = require('gulp'),
 		minifyCSS = require('gulp-minify-css'),
 		concat = require('gulp-concat'),

@@ -8,19 +8,19 @@
                         <span>Filters :</span>
                         <ul id="filters">
                             <li onclick="filterSelection('all')" class="active" data-filter="*">All</li>
-                            <li class="artwork" data-filter=".artwork" onclick="filterSelection('artwork')">Art Work</li>
-                            <li class="webdesign" data-filter=".webdesign" onclick="filterSelection('webdesign')">Web Design</li>
-                            <li class="design" data-filter=".design" onclick="filterSelection('design')">Design</li>
+                            <li class="photography" data-filter=".photography" onclick="filterSelection('photography')">Photography</li>
+                            <li class="webdevelopment" data-filter=".webdevelopment" onclick="filterSelection('webdevelopment')">Web Development</li>
+                            <li class="videography" data-filter=".videography" onclick="filterSelection('videography')">Videography</li>
                         </ul>
                     </div>
                     <div class="portfolio-container row isotope" id="portfolio-container">
                         <!-- WORK 1 START -->
-                        <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item artwork">
+                        <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item photography">
                             <a class="open-project" href="project-1.php">
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
-                                            <h2>CEREAL</h2>
+                                            <h2>Coronado, San Diego</h2>
                                             <hr>
                                             <p>View details.</p>
                                         </div>
@@ -32,148 +32,182 @@
                         </div>
                         <!-- WORK 1 END -->
                         <!-- WORK 2 START -->
-                        <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item webdesign">
-                            <a class="open-project" href="project-2.html">
+                        <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item webdevelopment">
+                            <a class="open-project" href="https://www.bodynamics.ie" target="_blank">
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
-                                            <h2>NOTES</h2>
+                                            <h2>Bodynamics</h2>
                                             <hr>
                                             <p>View details.</p>
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img src="portfolio/photography/IMG_0300.jpg" alt="">
+                                     <img src="portfolio/Web_Design/bodynamics.png" alt="">
                                 </div>
                             </a>
                         </div>
                         <!-- WORK 2 END -->
                         <!-- WORK 3 START -->
-                        <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item webdesign">
-                            <a class="open-project" href="project-3.html">
+                        <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item webdevelopment">
+                            <a class="open-project" href="https://www.casinosource.ie" target="_blank">
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
-                                            <h2>TIMES</h2>
+                                            <h2>CasinoSource</h2>
                                             <hr>
                                             <p>View details.</p>
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img src="portfolio/photography/IMG_0300.jpg" alt="">
+                                     <img src="portfolio/Web_Design/CS.png" alt="">
                                 </div>
                             </a>
                         </div>
                         <!-- WORK 3 END -->
                         <!-- WORK 4 START -->
-                        <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item artwork">
+                        <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item photography">
                             <a class="open-project" href="project-4.html">
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
-                                            <h2>STATIONARY</h2>
+                                            <h2>The Grand Canyon</h2>
                                             <hr>
                                             <p>View details.</p>
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img src="portfolio/photography/IMG_0300.jpg" alt="">
+                                     <img src="portfolio/photography/IMG_6115 copy.jpg" alt="">
                                 </div>
                             </a>
                         </div>
                         <!-- WORK 4 END -->
                         <!-- WORK 5 START -->
-                        <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item design">
+                        <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item videography">
                             <a class="open-project" href="project-5.html">
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
-                                            <h2>PH.D</h2>
+                                            <h2>Summer, 2018</h2>
                                             <hr>
                                             <p>View details.</p>
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img src="portfolio/photography/IMG_0300.jpg" alt="">
+                                     <img src="portfolio/videography/sd_play.png" alt="">
                                 </div>
                             </a>
                         </div>
                         <!-- WORK 5 END -->
                         <!-- WORK 6 START -->
-                        <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item design">
+                        <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item videography">
                             <a class="open-project" href="project-6.html">
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
-                                            <h2>WAG MAGAZINE</h2>
+                                            <h2>New York, 2019</h2>
                                             <hr>
                                             <p>View details.</p>
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                    <img src="portfolio/photography/IMG_0300.jpg" alt="">
+                                    <img src="portfolio/videography/ny_play.png" alt="">
                                 </div>
                             </a>
                         </div>
                         <!-- WORK 6 END -->
                         <!-- WORK 7 START -->
-                        <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item webdesign">
-                            <a class="open-project" href="project-1.html">
+                        <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item webdevelopment">
+                            <a class="open-project" href="https://www.toppasportsbooks.com" target="_blank">
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
-                                            <h2>LOOK</h2>
+                                            <h2>Top PA Sportsbooks</h2>
                                             <hr>
                                             <p>View details.</p>
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img src="portfolio/photography/IMG_0300.jpg" alt="">
+                                     <img src="portfolio/Web_Design/toppasportsbooks.png" alt="">
                                 </div>
                             </a>
                         </div>
                         <!-- WORK 7 END -->
                         <!-- WORK 8 START -->
-                        <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item artwork">
+                        <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item photography">
                             <a class="open-project" href="project-2.html">
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
-                                            <h2>IPAD</h2>
+                                            <h2>London</h2>
                                             <hr>
                                             <p>View details.</p>
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img src="portfolio/photography/IMG_0300.jpg" alt="">
+                                     <img src="portfolio/photography/london_edited-20.jpg" alt="">
                                 </div>
                             </a>
                         </div>
                         <!-- WORK 8 END -->
                         <!-- WORK 9 START -->
-                        <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item design">
+                        <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item videography">
                             <a class="open-project" href="project-1.html">
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
-                                            <h2>PAPER MOCKUP</h2>
+                                            <h2>Los Angeles, 2018</h2>
                                             <hr>
                                             <p>View details.</p>
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img src="portfolio/photography/IMG_0300.jpg" alt="">
+                                     <img src="portfolio/videography/la_play.png" alt="">
                                 </div>
                             </a>
                         </div>
                         <!-- WORK 9 END -->
+                        <!-- WORK 10 START -->
+                        <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item webdevelopment">
+                            <a class="open-project" href="https://www.casinos.co.nz" target="_blank">
+                                <div class="portfolio-column">
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-content">
+                                            <h2>Casinos.co.nz</h2>
+                                            <hr>
+                                            <p>View details.</p>
+                                        </div>
+                                        <div class="portfolio-overlay"></div>
+                                    </div>
+                                     <img src="portfolio/Web_Design/CNZ.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <!-- WORK 10 END -->
+                        <!-- WORK 11 START -->
+                        <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item photography">
+                            <a class="open-project" href="project-1.html">
+                                <div class="portfolio-column">
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-content">
+                                            <h2>Bodynamics Photoshoot</h2>
+                                            <hr>
+                                            <p>View details.</p>
+                                        </div>
+                                        <div class="portfolio-overlay"></div>
+                                    </div>
+                                     <img src="portfolio/photography/Bodynamics-130 copy.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <!-- WORK 11 END -->
                     </div>
                 </div>
             </div>
         </div>
         <div class="row text-center">
             <div class="col-md-12 btn-email">
-                <a class="btn lowercase">shout@james.com</a>
+                <a class="btn lowercase" href="mailto:caoimhegmalone@gmail.com" target="_top">caoimhegmalone@gmail.com</a>
             </div>
         </div>
     </section>

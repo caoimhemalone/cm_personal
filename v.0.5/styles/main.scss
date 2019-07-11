@@ -388,6 +388,10 @@ h2.contact.menu-item:before {
     margin-bottom: 0;
     margin-right: 20px;
 
+    @media only screen and (max-width: 800px) {
+        font-size: 0.9em;
+    }
+
     li {
     	display: inline-block;
 	    cursor: pointer;
@@ -397,9 +401,19 @@ h2.contact.menu-item:before {
 	    padding: 0 15px;
 	    color: $dark-green;
 
+        @media only screen and (max-width: 800px) {
+            margin-top: -10px;
+        }
+
 	    &:hover {
 	    	color: $peach;
 	    }
+    }
+
+    #close {
+        i {
+
+        }
     }
 
     li.active {
@@ -499,6 +513,10 @@ h2.contact.menu-item:before {
     border-bottom: 1px solid #ddd;
     margin-bottom: 30px;
     font-weight: 600; 
+
+    @media only screen and (max-width: 800px) {
+        margin-bottom: 0;
+    }
 }
 
 //Names
@@ -628,12 +646,24 @@ h2.contact.menu-item:before {
     transform: rotate(34deg);
 }
 
+.about, .portfolio {
+    .btn-email {
+        @media only screen and (max-width: 800px) {
+            margin-bottom: 2em;
+        }
+    }
+}
+
 .subheading {
     font-size: 30px;
     font-weight: 300;
     line-height: 2em;
     margin-bottom: 30px;
-    text-transform: none;  
+    text-transform: none; 
+
+    @media only screen and (max-width: 800px) {
+        font-size: 20px;
+    } 
 }
 
 .link {
@@ -679,7 +709,7 @@ h2.contact.menu-item:before {
 .progress-bar {
     height: 2px;
     line-height: 8px;
-    background-color: #666;
+    background-color: $peach;
     box-shadow: none;
     position: relative;
 
@@ -689,8 +719,8 @@ h2.contact.menu-item:before {
         height: 40px;
         line-height: 40px;
         text-align: center;
-        color: #000;
-        background: #F1F3F6;
+        color: $white;
+        background: $dark-green;
         font-weight: 500;
         position: absolute;
         top: -16px;
@@ -702,6 +732,10 @@ h2.contact.menu-item:before {
     color: #333;
     font-weight: 500;
     margin-bottom: 10px;
+
+    @media only screen and (max-width: 800px) {
+        margin-bottom: 20px;
+    }
 
     span {
         font-weight: 300;
@@ -833,6 +867,12 @@ h2.contact.menu-item:before {
 
     h4 {
         margin: 10px 0;
+    }
+
+    h4, .service-icon {
+        &:hover {
+            cursor: pointer;
+        }
     }
 }
 
@@ -1019,12 +1059,18 @@ h4.package {
             cursor: pointer;
             transition: all 0.3s ease;
 
+            @media only screen and (max-width: 600px) {
+                display: block;
+            }
+
             .active, &:hover {
                 color: #666;
             }
 
             &:first-child {
-                margin-left: 0;
+                @media only screen and (min-width: 800px) {
+                    margin-left: 0;
+                }
             }
         }
     }
@@ -1033,6 +1079,10 @@ h4.package {
 .portfolio-item {
     padding-bottom: 30px;
     display: none;
+
+    &:hover {
+        cursor: pointer;
+    }
 
     img {
         width: 100%;
@@ -1055,6 +1105,7 @@ h4.package {
         -webkit-box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.3);
         -moz-box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.3);
         box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.3);
+        cursor: pointer;
 
         img {
             transform: scale(1.1);
@@ -1372,7 +1423,7 @@ h4.package {
             transition: all .3s ease; 
 
             &:hover {
-                color: #666;
+                color: $peach;
                 border: 1px solid #666;
             }
         }
@@ -1405,7 +1456,9 @@ h4.package {
 
         .author-box {
             p {
-                font-size:13px;
+                @media only screen and (max-width: 1250px) {
+                    font-size:13px;
+                }
             }
         }
 
@@ -1465,6 +1518,12 @@ h4.package {
 
 .contact-form {
     margin-top: 30px;
+
+    .btn {
+        &:hover {
+            color: $peach;
+        }
+    }
 }
 
 .contact-content {
@@ -1698,7 +1757,8 @@ h4.package {
         -webkit-transform: rotate(-34deg);
         transform: rotate(-34deg);
         left: -190px;
-        top: 10px;
+        top: -46px;
+        width: 666px;
     }
     .about-block {
         -ms-transform: rotate(-34deg);
@@ -1725,8 +1785,12 @@ h4.package {
         -ms-transform: rotate(-34deg);
         -webkit-transform: rotate(-34deg);
         transform: rotate(-34deg);
-        left: 365px;
-        top: 538px;
+        left: 333px;
+        top: 494px;
+
+        h2 {
+            margin-bottom: 6em;
+        }
     }
 }
 

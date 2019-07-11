@@ -39,6 +39,11 @@ $(".inline-menu #close").click(function() {
 	$(".inline-menu-container").removeClass("showx");
 });
 
+$(".service").click(function() {
+  $(".content-blocks").removeClass("showx");
+  $(".content-blocks.portfolio").toggleClass("showx");
+  });
+
 filterSelection("all")
 function filterSelection(c) {
   var x, i;
