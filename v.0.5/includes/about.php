@@ -71,7 +71,7 @@
                                     <h4><span>Frontend Web Developer</span> @ Gambling.com Group</h4>
                                     <h5>September 2018 - <span class="current">Present</span></h5>
                                 </div>
-                                <p>I am a Frontend Web Developer for KAX Media part of <a href="https://www.gambling.com/corporate" target="_blank">Gambling.com Group </a>. We make gambling affiliate websites which serve 20+ countries including many US States which have overturned their online gambling laws. My team maintains and creates 30+ sites. In the past year I have created 4 websites which I maintain as well as my main site; <a href="https://www.casinosource.ie" target="_blank">CasinoSource</a>. Check out my <a href="">portfolio </a>for a full list of my sites</p>
+                                <p>I am a Frontend Web Developer for KAX Media part of <a href="https://www.gambling.com/corporate" target="_blank">Gambling.com Group </a>. We make gambling affiliate websites which serve 20+ countries including many US States which have overturned their online gambling laws. My team maintains and creates 30+ sites. In the past year I have created 4 websites which I maintain as well as my main site; <a href="https://www.casinosource.ie" target="_blank">CasinoSource</a>. Check out my <a class="portfolio_link">portfolio </a>for a full list of my sites</p>
                             </div>
                             <div class="exp">
                                 <div class="hgroup">

@@ -39,6 +39,10 @@ h1 {
     line-height: 60px;
     margin-top: 0;
     margin-bottom: 0;
+
+    @media only screen and (max-width: 540px) {
+        line-height: 40px;
+    }
 }
 
 h2 {
@@ -109,16 +113,6 @@ a {
 a[href^="tel:"] {
     color: inherit;
     text-decoration: none;
-}
-
-a:not([href]):not([tabindex]) {
-    color: #FFF !important;
-    cursor: pointer;
-
-    &:hover {
-        color: inherit !important;
-        text-decoration: none;
-    }
 }
 
 img {
@@ -566,6 +560,19 @@ h2.contact.menu-item:before {
     -webkit-transform: rotate(34deg);
     transform: rotate(34deg); 
 
+    @media only screen and (max-width: 1115px) and (min-width: 800px) {
+        padding-right: 194px;   
+    }
+
+    @media only screen and (max-width: 1540px) and (min-width: 800px) {
+        padding-left: 208px;  
+        width: 10em;
+    }
+
+    @media only screen and (max-width: 1540px) and (min-width: 1116px) {
+        padding-right: 110px;  
+    }
+
     h1, h2 {
         text-transform: capitalize;
         font-weight: 700;
@@ -792,6 +799,14 @@ h2.contact.menu-item:before {
 }
 
 .timeline.experience {
+    .portfolio_link {
+        color: $peach;
+
+        &:hover {
+            color: $dark-green;
+            cursor: pointer;
+        }
+    }
     &:after {
         content: '\f356';
     }
@@ -1430,7 +1445,7 @@ h4.package {
     }
 }
 
-.blog-post-content {
+.blog-post-content, .portfolio-post-content {
     .inline-menu-container {
         width: 100%;
     }

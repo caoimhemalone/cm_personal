@@ -16,7 +16,7 @@
                     <div class="portfolio-container row isotope" id="portfolio-container">
                         <!-- WORK 1 START -->
                         <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item photography">
-                            <a class="open-project" href="project-1.php">
+                            <a class="open-project" href="../portfolio/photography/pages/coronado.php">
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
@@ -67,7 +67,7 @@
                         <!-- WORK 3 END -->
                         <!-- WORK 4 START -->
                         <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item photography">
-                            <a class="open-project" href="project-4.html">
+                            <a class="open-project" href="../portfolio/photography/pages/grand_canyon.php">
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
@@ -84,7 +84,7 @@
                         <!-- WORK 4 END -->
                         <!-- WORK 5 START -->
                         <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item videography">
-                            <a class="open-project" href="project-5.html">
+                            <a class="open-project" href="https://www.youtube.com/watch?v=nbwkYJwzaC8" target="_blank">
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
@@ -101,11 +101,11 @@
                         <!-- WORK 5 END -->
                         <!-- WORK 6 START -->
                         <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item videography">
-                            <a class="open-project" href="project-6.html">
+                            <a class="open-project" href="https://www.youtube.com/watch?v=fPb12s4BK_U" target="_blank">
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
-                                            <h2>New York, 2019</h2>
+                                            <h2>New York, 2018</h2>
                                             <hr>
                                             <p>View details.</p>
                                         </div>
@@ -152,7 +152,7 @@
                         <!-- WORK 8 END -->
                         <!-- WORK 9 START -->
                         <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item videography">
-                            <a class="open-project" href="project-1.html">
+                            <a class="open-project" href="https://www.youtube.com/watch?v=ZcgrNPseVfM" target="_blank">
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">

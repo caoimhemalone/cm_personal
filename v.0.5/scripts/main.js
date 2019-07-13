@@ -39,7 +39,7 @@ $(".inline-menu #close").click(function() {
 	$(".inline-menu-container").removeClass("showx");
 });
 
-$(".service").click(function() {
+$(".service, .portfolio_link").click(function() {
   $(".content-blocks").removeClass("showx");
   $(".content-blocks.portfolio").toggleClass("showx");
   });
