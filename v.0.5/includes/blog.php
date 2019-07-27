@@ -6,12 +6,12 @@
                 <div class="col-md-10 mx-auto">
                     <div class="post">
                         <div class="post-thumbnail">
-                            <a class="open-post" href="Blog_Posts/blog-1.php">
+                            <a class="open-post" href="blog/the-5am-club.php">
                                 <img src="desk.jpeg" alt="desk">
                             </a>
                         </div>
                         <div class="post-title">
-                            <a class="open-post" href="Blog_Posts/blog-1.php"><h2>Why I don’t think the 5am club is the only way to be productive</h2></a>
+                            <a class="open-post" href="blog/the-5am-club.php"><h2>Why I don’t think the 5am club is the only way to be productive</h2></a>
                             <p class="post-info">
                                 <span class="post-author">Caoimhe Malone</span>
                                 <span class="slash"></span>
@@ -22,7 +22,7 @@
                         </div>
                         <div class="post-body">
                             <p>This started off as a journal entry but I decided that it was actually a good topic to write about.I’ve been thinking a lot about the 5am club. I’ve heard about it on many podcasts and have read numerous medium articles on the subject. I would 100% join the 5am club instead of staying up until</p>
-                            <a class="btn open-post" href="Blog_Posts/blog-1.php">Read More</a>
+                            <a class="btn open-post" href="blog/the-5am-club.php">Read More</a>
                         </div>
                     </div>
                    
