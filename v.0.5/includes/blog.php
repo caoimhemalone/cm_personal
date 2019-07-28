@@ -7,7 +7,7 @@
                     <div class="post">
                         <div class="post-thumbnail">
                             <a class="open-post" href="blog/the-5am-club.php">
-                                <img src="desk.jpeg" alt="desk">
+                                <img class="lazyload" data-src="desk.jpeg" alt="desk">
                             </a>
                         </div>
                         <div class="post-title">

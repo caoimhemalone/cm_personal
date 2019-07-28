@@ -24,17 +24,9 @@
     
       gtag('config', 'UA-139553932-2');
     </script>
-
-
-
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
     <link rel="stylesheet" href="styles/plugins.min.css" type="text/css" media="screen" />
-    <!-- <link rel="stylesheet" href="styles/main.css" type="text/css" media="screen" /> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
     <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="   crossorigin="anonymous"></script>
-
 	<style type="text/css"><?php include("styles/main.css");?></style>
 </head>
 
@@ -45,6 +37,10 @@
         <?php include("home.php");?>
 
     </section>
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="   crossorigin="anonymous"></script>
 
     <script><?php include("scripts/min/main.js");?></script>
     <script src="scripts/plugins.min.js"></script>
