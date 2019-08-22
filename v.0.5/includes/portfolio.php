@@ -16,7 +16,7 @@
                     <div class="portfolio-container row isotope" id="portfolio-container">
                         <!-- WORK 1 START -->
                         <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item photography">
-                            <a class="open-project" href="../portfolio/photography/pages/coronado.php">
+                            <a class="open-project" href="../Portfolio/Photography/pages/coronado.php">
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
@@ -26,7 +26,7 @@
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                    <img src="portfolio/photography/IMG_0300.jpg" alt="">
+                                    <img class="lazyload" data-src="../Portfolio/Photography/IMG_0300.jpg" alt="">
                                 </div>
                             </a>
                         </div>
@@ -43,7 +43,7 @@
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img src="portfolio/Web_Design/bodynamics.png" alt="">
+                                     <img class="lazyload" data-src="/../Portfolio/Web_Design/bodynamics.png" alt="">
                                 </div>
                             </a>
                         </div>
@@ -60,14 +60,14 @@
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img src="portfolio/Web_Design/CS.png" alt="">
+                                     <img class="lazyload" data-src="../Portfolio/Web_Design/CS.png" alt="">
                                 </div>
                             </a>
                         </div>
                         <!-- WORK 3 END -->
                         <!-- WORK 4 START -->
                         <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item photography">
-                            <a class="open-project" href="../portfolio/photography/pages/grand_canyon.php">
+                            <a class="open-project" href="../Portfolio/Photography/pages/grand_canyon.php">
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
@@ -77,7 +77,7 @@
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img src="portfolio/photography/IMG_6115 copy.jpg" alt="">
+                                     <img class="lazyload" data-src="../Portfolio/Photography/IMG_6115 copy.jpg" alt="">
                                 </div>
                             </a>
                         </div>
@@ -94,7 +94,7 @@
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img src="portfolio/videography/sd_play.png" alt="">
+                                     <img class="lazyload" data-src="../Portfolio/Videography/sd_play.png" alt="">
                                 </div>
                             </a>
                         </div>
@@ -111,7 +111,7 @@
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                    <img src="portfolio/videography/ny_play.png" alt="">
+                                    <img class="lazyload" data-src="../Portfolio/Videography/ny_play.png" alt="">
                                 </div>
                             </a>
                         </div>
@@ -128,14 +128,14 @@
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img src="portfolio/Web_Design/toppasportsbooks.png" alt="">
+                                     <img class="lazyload" data-src="../Portfolio/Web_Design/toppasportsbooks.png" alt="">
                                 </div>
                             </a>
                         </div>
                         <!-- WORK 7 END -->
                         <!-- WORK 8 START -->
                         <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item photography">
-                            <a class="open-project" href="project-2.html">
+                            <a class="open-project" href="../Portfolio/Photography/pages/london.php">
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
@@ -145,7 +145,7 @@
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img src="portfolio/photography/london_edited-20.jpg" alt="">
+                                     <img class="lazyload" data-src="../Portfolio/Photography/london_edited-20.jpg" alt="">
                                 </div>
                             </a>
                         </div>
@@ -162,7 +162,7 @@
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img src="portfolio/videography/la_play.png" alt="">
+                                     <img class="lazyload" data-src="../Portfolio/Videography/la_play.png" alt="">
                                 </div>
                             </a>
                         </div>
@@ -179,14 +179,14 @@
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img src="portfolio/Web_Design/CNZ.png" alt="">
+                                     <img class="lazyload" data-src="../Portfolio/Web_Design/CNZ.png" alt="">
                                 </div>
                             </a>
                         </div>
                         <!-- WORK 10 END -->
                         <!-- WORK 11 START -->
                         <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item photography">
-                            <a class="open-project" href="project-1.html">
+                            <a class="open-project" href="../Portfolio/Photography/pages/bodynamics.php">
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
@@ -196,7 +196,7 @@
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img src="portfolio/photography/Bodynamics-130 copy.jpg" alt="">
+                                     <img class="lazyload" data-src="../Portfolio/Photography/Bodynamics-130 copy.jpg" alt="">
                                 </div>
                             </a>
                         </div>

@@ -3,13 +3,27 @@
 
 <head>
 
-     <meta charset="utf-8" />
+         <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>key-vah | Caoimhe Malone</title>
-    <meta name="description" content="keyvah.com | Caoimhe Malone">
+    <title>keyvah | Caoimhe Malone</title>
+    <meta name="description" content="key-vah.com | Caoimhe Malone">
     <meta name="author" content="Caoimhe Malone" />
-
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139553932-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-139553932-2');
+    </script>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
     <link rel="stylesheet" href="../../../styles/plugins.min.css" type="text/css" media="screen" />
@@ -27,10 +41,11 @@
         <div class="inline-menu-container showx">
             <span class="status contact menu-item">I am available for freelance</span>
             <ul class="inline-menu">
-                <li class="about menu-item"><a href="/">What I've Done</a></li>
+                <!-- <li class="about menu-item"><a href="/">What I've Done</a></li>
                 <li class="portfolio menu-item"><a href="/">Portfolio</a></li>
                 <li class="blog menu-item"><a href="/">Blog</a></li>
-                <li class="contact menu-item"><a href="/">Contact</a></li>
+                <li class="contact menu-item"><a href="/">Contact</a></li> -->
+                <li class="contact menu-item"><a href="/">Dashboard</a></li>
             </ul>
         </div>
 
@@ -47,77 +62,77 @@
                                 
                                 <div class="project-media row">
                                     <div class="col-md-4">
-                                        <img src="../bodynamics/bd_10.jpg" alt="Bodynamics Gym">
+                                        <img class="lazyload" data-src="../bodynamics/bd_10.jpg" alt="Bodynamics Gym">
                                     </div>   
                                 
                                     <div class="col-md-4">
-                                        <img src="../bodynamics/bd_25.jpg" alt="Bodynamics Gym">
+                                        <img class="lazyload" data-src="../bodynamics/bd_25.jpg" alt="Bodynamics Gym">
                                     </div>
                                      <div class="col-md-4">
-                                        <img src="../bodynamics/bd_4.jpg" alt="Bodynamics Gym">
+                                        <img class="lazyload" data-src="../bodynamics/bd_4.jpg" alt="Bodynamics Gym">
                                     </div>
                                 </div> 
 
                                 <div class="project-media row">
                                     <div class="col-md-6">
-                                        <img src="../bodynamics/bd_18.jpg" alt="Bodynamics Gym">
-                                          <img src="../bodynamics/bd_21.jpg" alt="Bodynamics Gym">
+                                        <img class="lazyload" data-src="../bodynamics/bd_18.jpg" alt="Bodynamics Gym">
+                                          <img class="lazyload" data-src="../bodynamics/bd_21.jpg" alt="Bodynamics Gym">
                                     </div>
                                     <div class="col-md-6">
-                                        <img src="../bodynamics/bd_15.jpg" alt="Bodynamics Gym">
-                                        <img src="../bodynamics/bd_5.jpg" alt="Bodynamics Gym">
+                                        <img class="lazyload" data-src="../bodynamics/bd_15.jpg" alt="Bodynamics Gym">
+                                        <img class="lazyload" data-src="../bodynamics/bd_5.jpg" alt="Bodynamics Gym">
                                     </div>
 
                                      <div class="col-md-6">
-                                        <img src="../bodynamics/bd_19.jpg" alt="Bodynamics Gym">
-                                        <img src="../bodynamics/bd_11.jpg" alt="Bodynamics Gym">
+                                        <img class="lazyload" data-src="../bodynamics/bd_19.jpg" alt="Bodynamics Gym">
+                                        <img class="lazyload" data-src="../bodynamics/bd_11.jpg" alt="Bodynamics Gym">
                                     </div>
                                     <div class="col-md-6">
-                                        <img src="../bodynamics/bd_23.jpg" alt="Bodynamics Gym">
-                                        <img src="../bodynamics/bd_7.jpg" alt="Bodynamics Gym">
+                                        <img class="lazyload" data-src="../bodynamics/bd_23.jpg" alt="Bodynamics Gym">
+                                        <img class="lazyload" data-src="../bodynamics/bd_7.jpg" alt="Bodynamics Gym">
                                     </div>
                                 </div>
                                 <div class="project-media row">              
                                     <div class="col-md-4">
-                                        <img src="../bodynamics/bd_12.jpg" alt="Bodynamics Gym">
+                                        <img class="lazyload" data-src="../bodynamics/bd_12.jpg" alt="Bodynamics Gym">
                                     </div>
                                     <div class="col-md-4">
-                                        <img src="../bodynamics/bd_1.jpg" alt="Bodynamics Gym">
+                                        <img class="lazyload" data-src="../bodynamics/bd_1.jpg" alt="Bodynamics Gym">
                                     </div>
                                     <div class="col-md-4">
-                                        <img src="../bodynamics/bd_6.jpg" alt="Bodynamics Gym"> 
+                                        <img class="lazyload" data-src="../bodynamics/bd_6.jpg" alt="Bodynamics Gym"> 
                                     </div>
                                 </div> 
                                 <div class="project-media row">
                                      <div class="col-md-6">
-                                        <img src="../bodynamics/bd_16.jpg" alt="Bodynamics Gym">
-                                        <img src="../bodynamics/bd_22.jpg" alt="Bodynamics Gym">
+                                        <img class="lazyload" data-src="../bodynamics/bd_16.jpg" alt="Bodynamics Gym">
+                                        <img class="lazyload" data-src="../bodynamics/bd_22.jpg" alt="Bodynamics Gym">
                                     </div>
                                     <div class="col-md-6">
-                                        <img src="../bodynamics/bd_9.jpg" alt="Bodynamics Gym">
-                                        <img src="../bodynamics/bd_13.jpg" alt="Bodynamics Gym">
+                                        <img class="lazyload" data-src="../bodynamics/bd_9.jpg" alt="Bodynamics Gym">
+                                        <img class="lazyload" data-src="../bodynamics/bd_13.jpg" alt="Bodynamics Gym">
                                     </div>
                              
                                     <div class="col-md-4">                    
-                                        <img src="../bodynamics/bd_3.jpg" alt="Bodynamics Gym">
+                                        <img class="lazyload" data-src="../bodynamics/bd_3.jpg" alt="Bodynamics Gym">
                                     </div>
                                     <div class="col-md-4">
-                                        <img src="../bodynamics/bd_17.jpg" alt="Bodynamics Gym">
+                                        <img class="lazyload" data-src="../bodynamics/bd_17.jpg" alt="Bodynamics Gym">
                                     </div>
                                     <div class="col-md-4">
-                                        <img src="../bodynamics/bd_2.jpg" alt="Bodynamics Gym">
+                                        <img class="lazyload" data-src="../bodynamics/bd_2.jpg" alt="Bodynamics Gym">
                                     </div>
                                     <div class="col-md-4">
-                                        <img src="../bodynamics/bd_14.jpg" alt="Bodynamics Gym">
+                                        <img class="lazyload" data-src="../bodynamics/bd_14.jpg" alt="Bodynamics Gym">
                                     </div>
                                     <div class="col-md-4">
-                                        <img src="../bodynamics/bd_20.jpg" alt="Bodynamics Gym">
+                                        <img class="lazyload" data-src="../bodynamics/bd_20.jpg" alt="Bodynamics Gym">
                                     </div>
                                     <div class="col-md-4">
-                                        <img src="../bodynamics/bd_8.jpg" alt="Bodynamics Gym">
+                                        <img class="lazyload" data-src="../bodynamics/bd_8.jpg" alt="Bodynamics Gym">
                                     </div>
                                     <div class="col-md-12">
-                                        <img src="../bodynamics/bd_24.jpg" alt="Bodynamics Gym">
+                                        <img class="lazyload" data-src="../bodynamics/bd_24.jpg" alt="Bodynamics Gym">
                                     </div>
                                 </div>                              
                             </div>
@@ -143,6 +158,13 @@
 
     <script><?php include("../../../scripts/min/main.js");?></script>
     <script src="../../../scripts/plugins.min.js"></script>
+        <script>    
+        // Set the options to make LazyLoad self-initialize 
+        window.lazyLoadOptions = {  
+            elements_selector: ".lazyload",  
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.0.0/dist/lazyload.min.js"></script>
     <script src="../../../Bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

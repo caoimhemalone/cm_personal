@@ -402,6 +402,14 @@ h2.contact.menu-item:before {
 	    &:hover {
 	    	color: $peach;
 	    }
+
+        a {
+            color: $dark-green;
+
+            &:hover {
+                color: $peach;
+            }
+        }
     }
 
     #close {

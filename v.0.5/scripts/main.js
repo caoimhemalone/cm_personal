@@ -79,5 +79,9 @@ function w3RemoveClass(element, name) {
   element.className = arr1.join(" ");
 }
 
+var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazyload"
+    // ... more custom settings?
+});
 
 
