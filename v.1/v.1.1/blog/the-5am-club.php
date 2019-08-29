@@ -39,17 +39,7 @@
 
 <body>
     <section class="blog-post-content">
-        <div class="inline-menu-container showx">
-            <span class="status contact menu-item">I am available for freelance</span>
-            <span class="name"><a href="/">key-vah</a></span>
-            <ul class="inline-menu">
-                <!-- <li class="about menu-item"><a href="/#resume">What I've Done</a></li>-->
-                <!--<li class="portfolio menu-item"><a href="/#portfolio">Portfolio</a></li>-->
-                <!--<li class="blog menu-item"><a href="/#blog">Blog</a></li>-->
-                <!--<li class="contact menu-item"><a href="/#about-me">Contact</a></li> -->
-                <li class="contact menu-item"><a href="/">More of what I do</a></li>
-            </ul>
-        </div>
+        <?php include("../includes/other-pages-menu.php");?>
 
         <div id="blog-header" style="background: url(../desk.jpeg); background-size: cover;">
             <div class="overlay"></div>

@@ -39,16 +39,7 @@
 
 <body>
     <section class="portfolio-post-content">
-        <div class="inline-menu-container showx">
-            <span class="status contact menu-item">I am available for freelance</span>
-            <ul class="inline-menu">
-                <!-- <li class="about menu-item"><a href="/">What I've Done</a></li>
-                <li class="portfolio menu-item"><a href="/">Portfolio</a></li>
-                <li class="blog menu-item"><a href="/">Blog</a></li>
-                <li class="contact menu-item"><a href="/">Contact</a></li> -->
-                <li class="contact menu-item"><a href="/">Dashboard</a></li>
-            </ul>
-        </div>
+        <?php include("../../../includes/other-pages-menu.php");?>
 
         <div class="block-content">
             <div class="row">

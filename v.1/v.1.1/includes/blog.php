@@ -3,9 +3,8 @@
         <div class="block-content">
             <h3 class="block-title">My Blog</h3>
             <div class="row">
-                <div class="col-md-10 mx-auto">
                     <!--LATEST POST-->
-                    <div class="post">
+                    <div class="post col-md-6">
                         <div class="post-thumbnail">
                             <a class="open-post" href="/blog/airpods-covers-review">
                                 <img class="lazyload" data-src="airpods.jpeg" alt="airpods">
@@ -28,7 +27,7 @@
                     </div>
                     <!--END OF LATEST POST-->
                     
-                    <div class="post">
+                    <div class="post col-md-6">
                         <div class="post-thumbnail">
                             <a class="open-post" href="blog/the-5am-club">
                                 <img class="lazyload" data-src="desk.jpeg" alt="desk">
@@ -71,7 +70,6 @@
                             </li>
                         </ul>
                     </div> -->
-                </div>
             </div>
         </div>
     </section>
