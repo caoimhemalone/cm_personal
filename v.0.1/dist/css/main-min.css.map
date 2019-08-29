@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AACA,gBAAiB,CACf,gBAAgB,CAAE,kBAAiB,CAGrC,UAAW,CACT,gBAAgB,CAAE,iCAAiC,CAGrD,OAAQ,CACP,KAAK,CAAE,OAAO,CAGf,KAAM,CACL,KAAK,CAAE,OAAO,CAGf,OAAQ,CACP,KAAK,CAAE,OAAO,CAGf,OAAO,CACN,WAAW,CAAE,cAAc,CAC3B,MAAM,CAAE,cAAc,CAMrB,qBAAW,CACX,gBAAgB,CAAE,OAAO,CACzB,YAAY,CAAE,OAAO",
-"sources": ["../../NewBootstrap/startbootstrap-creative-gh-pages/scss/main.scss"],
-"names": [],
-"file": "main-min.css"
-}
