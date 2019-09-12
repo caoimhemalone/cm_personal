@@ -1460,6 +1460,12 @@ h4.package {
 .blog-post-content, .portfolio-post-content {
     .inline-menu-container {
         width: 100%;
+
+        .inline-menu {
+            li {
+                margin-top: 0;
+            }
+        }
     }
 
     .block-content {
