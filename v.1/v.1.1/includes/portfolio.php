@@ -16,7 +16,7 @@
                     <div class="portfolio-container row isotope" id="portfolio-container">
                         <!-- WORK 1 START -->
                         <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item photography">
-                            <a class="open-project" href="../Portfolio/Photography/pages/coronado.php">
+                            <a class="open-project" href="../Portfolio/Photography/pages/coronado">
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
@@ -49,6 +49,23 @@
                         </div>
                         <!-- WORK 2 END -->
                         <!-- WORK 3 START -->
+                        <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item photography">
+                            <a class="open-project" href="../Portfolio/Photography/pages/paris">
+                                <div class="portfolio-column">
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-content">
+                                            <h2>Paris</h2>
+                                            <hr>
+                                            <p>View details.</p>
+                                        </div>
+                                        <div class="portfolio-overlay"></div>
+                                    </div>
+                                    <img class="lazyload" data-src="../Portfolio/Photography/paris.jpg" alt="Paris, France">
+                                </div>
+                            </a>
+                        </div>
+                        <!-- WORK 3 END -->
+                        <!-- WORK 4 START -->
                           <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item videography">
                             <a class="open-project" href="https://www.youtube.com/watch?v=nbwkYJwzaC8" target="_blank">
                                 <div class="portfolio-column">
@@ -65,10 +82,10 @@
                             </a>
                         </div>
 
-                        <!-- WORK 3 END -->
-                        <!-- WORK 4 START -->
+                        <!-- WORK 4 END -->
+                        <!-- WORK 5 START -->
                         <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item photography">
-                            <a class="open-project" href="../Portfolio/Photography/pages/grand_canyon.php">
+                            <a class="open-project" href="../Portfolio/Photography/pages/grand_canyon">
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
@@ -82,8 +99,8 @@
                                 </div>
                             </a>
                         </div>
-                        <!-- WORK 4 END -->
-                        <!-- WORK 5 START -->
+                        <!-- WORK 5 END -->
+                        <!-- WORK 6 START -->
                          <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item videography">
                             <a class="open-project" href="https://www.youtube.com/watch?v=fPb12s4BK_U" target="_blank">
                                 <div class="portfolio-column">
@@ -99,8 +116,8 @@
                                 </div>
                             </a>
                         </div>
-                        <!-- WORK 5 END -->
-                        <!-- WORK 6 START -->
+                        <!-- WORK 6 END -->
+                        <!-- WORK 7 START -->
                         <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item webdevelopment">
                             <a class="open-project" href="https://www.casinosource.ie" target="_blank">
                                 <div class="portfolio-column">
@@ -116,27 +133,10 @@
                                 </div>
                             </a>
                         </div>
-                        <!-- WORK 6 END -->
-                        <!-- WORK 7 START -->
-                        <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item webdevelopment">
-                            <a class="open-project" href="https://www.toppasportsbooks.com" target="_blank">
-                                <div class="portfolio-column">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-content">
-                                            <h2>Top PA Sportsbooks</h2>
-                                            <hr>
-                                            <p>View details.</p>
-                                        </div>
-                                        <div class="portfolio-overlay"></div>
-                                    </div>
-                                     <img class="lazyload" data-src="../Portfolio/Web_Design/toppasportsbooks.png" alt="toppasportsbooks">
-                                </div>
-                            </a>
-                        </div>
                         <!-- WORK 7 END -->
                         <!-- WORK 8 START -->
                         <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item photography">
-                            <a class="open-project" href="../Portfolio/Photography/pages/london.php">
+                            <a class="open-project" href="../Portfolio/Photography/pages/london">
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
@@ -152,6 +152,23 @@
                         </div>
                         <!-- WORK 8 END -->
                         <!-- WORK 9 START -->
+                        <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item webdevelopment">
+                            <a class="open-project" href="https://www.toppasportsbooks.com" target="_blank">
+                                <div class="portfolio-column">
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-content">
+                                            <h2>Top PA Sportsbooks</h2>
+                                            <hr>
+                                            <p>View details.</p>
+                                        </div>
+                                        <div class="portfolio-overlay"></div>
+                                    </div>
+                                     <img class="lazyload" data-src="../Portfolio/Web_Design/toppasportsbooks.png" alt="toppasportsbooks">
+                                </div>
+                            </a>
+                        </div>
+                        <!-- WORK 9 END -->
+                        <!-- WORK 10 START -->
                         <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item videography">
                             <a class="open-project" href="https://www.youtube.com/watch?v=ZcgrNPseVfM" target="_blank">
                                 <div class="portfolio-column">
@@ -167,8 +184,8 @@
                                 </div>
                             </a>
                         </div>
-                        <!-- WORK 9 END -->
-                        <!-- WORK 10 START -->
+                        <!-- WORK 10 END -->
+                        <!-- WORK 11 START -->
                         <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item webdevelopment">
                             <a class="open-project" href="https://www.casinos.co.nz" target="_blank">
                                 <div class="portfolio-column">
@@ -184,8 +201,8 @@
                                 </div>
                             </a>
                         </div>
-                        <!-- WORK 10 END -->
-                        <!-- WORK 11 START -->
+                        <!-- WORK 11 END -->
+                        <!-- WORK 12 START -->
                           <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item videography">
                             <a class="open-project" href="https://www.youtube.com/watch?v=UsK80k_sFV8" target="_blank">
                                 <div class="portfolio-column">
@@ -201,11 +218,11 @@
                                 </div>
                             </a>
                         </div> 
-                        <!-- WORK 11 END -->
+                        <!-- WORK 12 END -->
 
-                        <!-- WORK 12 START -->
+                        <!-- WORK 13 START -->
                         <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item photography">
-                            <a class="open-project" href="../Portfolio/Photography/pages/los_angeles.php">
+                            <a class="open-project" href="../Portfolio/Photography/pages/los_angeles">
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
@@ -219,9 +236,9 @@
                                 </div>
                             </a>
                         </div>
-                        <!-- WORK 12 END -->
+                        <!-- WORK 13 END -->
 
-                        <!-- WORK 13 START -->
+                        <!-- WORK 14 START -->
                         <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item videography">
                             <a class="open-project" href="https://www.youtube.com/watch?v=sVu2lk86k24" target="_blank">
                                 <div class="portfolio-column">
@@ -237,10 +254,10 @@
                                 </div>
                             </a>
                         </div> 
-                        <!-- WORK 13 END -->
-                        <!-- WORK 14 START -->
+                        <!-- WORK 14 END -->
+                        <!-- WORK 15 START -->
                        <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item photography">
-                            <a class="open-project" href="../Portfolio/Photography/pages/bodynamics.php">
+                            <a class="open-project" href="../Portfolio/Photography/pages/bodynamics">
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
@@ -254,7 +271,7 @@
                                 </div>
                             </a>
                         </div>
-                        <!-- WORK 14 END -->
+                        <!-- WORK 15 END -->
                     </div>
                 </div>
             </div>
