@@ -3,11 +3,11 @@
 
 <head>
 
-        <meta charset="utf-8" />
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>keyvah | Caoimhe Malone</title>
-    <meta name="description" content="Los Angeles, California, 2018 | key-vah.com | Caoimhe Malone">
+    <meta name="description" content="Paris, France, 2019 | key-vah.com | Caoimhe Malone">
     <meta name="author" content="Caoimhe Malone" />
     
     <link rel="apple-touch-icon" sizes="180x180" href="../../../apple-touch-icon.png">
@@ -48,60 +48,55 @@
                         <div class="post">
                             <div class="post-body">
                                 <div class="project-head">
-                                    <h1 class="block-title">Los Angeles, California,  Summer 2018</h1>
-                                    <p>At the end of Summer, we took a bus from San Diego to LA and spent a few days there exploring.</p>
+                                    <h1 class="block-title">Paris, France, 2019</h1>
+                                    <p>An unbelievable trip to Paris this year from sunset at Sacre Couer to seeing the Notre Dame a few weeks before the tragic fire. It was a trip I will never forget.</p>
                                 </div>
                                 
                                 <div class="project-media row">
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../los_angeles/LASFNYColourGraded-39.jpg" alt="Los Angeles">
-                                        <img class="lazyload" data-src="../los_angeles/LASFNYColourGraded-32.jpg" alt="Los Angeles">
+                                        <img class="lazyload" data-src="../paris/paris_10.jpg" alt="Sacre Couer, Paris">
+                                        <img class="lazyload" data-src="../paris/paris_12.jpg" alt="Arc de Triomphe, Paris">
                                     </div>
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../los_angeles/LASFNYColourGraded-28.jpg" alt="Los Angeles">
+                                        <img class="lazyload" data-src="../paris/paris_4.jpg" alt="Notre Dame, Paris">
                                     </div>
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../los_angeles/LASFNYColourGraded-30.jpg" alt="Los Angeles">
+                                        <img class="lazyload" data-src="../paris/paris_14.jpg" alt="Paris">
                                     </div>
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../los_angeles/LASFNYColourGraded-49.jpg" alt="Los Angeles">
+                                        <img class="lazyload" data-src="../paris/paris_9.jpg" alt="Paris">
+                                        <img class="lazyload" data-src="../paris/paris_5.jpg" alt="Paris">
                                     </div>
                                 </div>   
 
                                 <div class="project-media row">
    
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../los_angeles/LASFNYColourGraded-24.jpg" alt="Los Angeles">
-                                        <img class="lazyload" data-src="../los_angeles/LASFNYColourGraded-40.jpg" alt="Los Angeles">
+                                        <img class="lazyload" data-src="../paris/paris_13.jpg" alt="Paris">
+                                        <img class="lazyload" data-src="../paris/paris_11.jpg" alt="Paris">
+                                       
                                     </div>
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../los_angeles/LASFNYColourGraded-5.jpg" alt="Los Angeles">
+                                        <img class="lazyload" data-src="../paris/paris_1.jpg" alt="Paris">
+                                        <img class="lazyload" data-src="../paris/paris_7.jpg" alt="The Louvre, Paris">
+                                         <img class="lazyload" data-src="../paris/paris_2.jpg" alt="Los Angeles">
+                                        
                                     </div>
                                     
                                 </div>  
 
                                 <div class="project-media row">
                                     <div class="col-md-6">
-                                         <img class="lazyload" data-src="../los_angeles/LASFNYColourGraded-8.jpg" alt="Los Angeles">
-                                         <img class="lazyload" data-src="../los_angeles/LASFNYColourGraded-9.jpg" alt="Los Angeles">
-                                        <img class="lazyload" data-src="../los_angeles/LASFNYColourGraded-10.jpg" alt="Los Angeles">
+                                         
+                                        <img class="lazyload" data-src="../paris/paris_8.jpg" alt="Los Angeles">
+                                         <img class="lazyload" data-src="../paris/paris_6.jpg" alt="Disney Castle, Paris">
+                                        
                                     </div>
 
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../los_angeles/LASFNYColourGraded-3.jpg" alt="Los Angeles">
+                                         <img class="lazyload" data-src="../paris/paris_3.jpg" alt="Eiffel Tower, Paris">
                                     </div>
-                                </div>  
-
-                                <div class="project-media row">
-                                    <div class="col-md-6">
-                                        <img class="lazyload" data-src="../los_angeles/LASFNYColourGraded-16.jpg" alt="Los Angeles">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <img class="lazyload" data-src="../los_angeles/LASFNYColourGraded-20.jpg" alt="Los Angeles">
-                                        <img class="lazyload" data-src="../los_angeles/LASFNYColourGraded-18.jpg" alt="Los Angeles">
-                                         <img class="lazyload" data-src="../los_angeles/LASFNYColourGraded-19.jpg" alt="Los Angeles">
-                                    </div>
-                                </div>                            
+                                </div>
                             </div>
                         </div>
                     </div>
