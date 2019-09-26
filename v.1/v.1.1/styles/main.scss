@@ -349,7 +349,7 @@ h2.contact.menu-item:before {
 .inline-menu-container {
 	background: #F1F3F6;
     position: fixed;
-    height: 40px;
+    //height: 40px;
     width: 70%;
     right: 0;
     top: -50px;
@@ -357,7 +357,7 @@ h2.contact.menu-item:before {
     z-index: 1;
 
     @media only screen and (max-width: 991px) {
-        height: 30px;
+        //height: 30px;
     }
 
     .status {
