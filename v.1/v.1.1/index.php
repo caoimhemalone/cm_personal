@@ -24,6 +24,7 @@
     
       gtag('config', 'UA-139553932-2');
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="styles/plugins.min.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
     <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -44,13 +45,30 @@
 
     <script><?php include("scripts/min/main.js");?></script>
     <script src="scripts/plugins.min.js"></script>
-    <script>    
+    
+    <script>
+        jQuery(function($){
+           switch(window.location.hash){
+              case "resume":  $("body").addClass("resume-shown"); break;
+              case "portfolio":  $("body").addClass("portfolio-shown"); break;
+              case "blog":  $("body").addClass("blog-shown"); break;
+              case "about-me":  $("body").addClass(".about-me-shown"); break;
+           }
+        });
+    </script>
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.0.0/dist/lazyload.min.js"></script>
+        <script>    
         // Set the options to make LazyLoad self-initialize 
+        var myLazyLoad = new LazyLoad({
+            data_src: "src"
+        });
         window.lazyLoadOptions = {  
             elements_selector: ".lazyload",  
         };
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.0.0/dist/lazyload.min.js"></script>
-    <script src="Bootstrap/js/bootstrap.min.js"></script>
+    <!-- First JQuery, Bootstrap, etc, ... -->
+<!--<script src="https://keyvah-ab7d.restdb.io/rest/_jsapi.js"></script>
+<script>var db = new restdb("5d52ff35f4e0a738c5ad6c6d | jwt token", options);</script>-->
 </body>
 </html>
