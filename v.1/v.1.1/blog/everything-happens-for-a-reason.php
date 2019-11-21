@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>keyvah | Caoimhe Malone</title>
-    <meta name="description" content="AirPods silicone covers review | key-vah.com | Caoimhe Malone">
+    <meta name="description" content="Everything happens for a reason | key-vah.com | Caoimhe Malone">
     <meta name="author" content="Caoimhe Malone" />
     
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -15,7 +15,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     
-    <link rel="canonical" href="https://www.key-vah.com/blog/airpods-covers-review" />
+    <link rel="canonical" href="https://www.key-vah.com/blog/everything-happens-for-a-reason" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139553932-2"></script>
     <script>
@@ -43,16 +43,16 @@
     <section class="blog-post-content">
         <?php include("../includes/other-pages-menu.php");?>
 
-        <div id="blog-header" style="background: url(../airpods.jpeg); background-size: cover;">
+        <div id="blog-header" style="background: url(../mountain.jpg); background-size: cover;">
             <div class="overlay"></div>
             <div class="single-post-title">
-                <h1>How this £4.49 Amazon accessory changed my AirPods experience completely</h1>
+                <h1>Everything Happens For a Reason</h1>
                 <p class="post-info">
                     <span class="post-author">Caoimhe Malone</span>
                     <span class="slash"></span>
-                    <span class="post-date">Aug 29, 2019</span>
+                    <span class="post-date">November 21, 2019</span>
                     <span class="slash"></span>
-                    <span class="post-catetory">Tech</span>
+                    <span class="post-catetory">Life</span>
                 </p>
             </div>
         </div>
@@ -60,21 +60,17 @@
             <div class="row">
                 <div class="col-md-12">
                     <div id="single-post">
-                           <span style="font-size: 0.7em;">Photo by  <a href="#" onclick='window.open("https://unsplash.com/@jking?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText");return false;'>Jaz King</a> on Unsplash</span>
+                           <span style="font-size: 0.7em;">Photo by  <a href="#" onclick='window.open("https://unsplash.com/@pabloheimplatz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText");return false;'>Pablo Heimplatz</a> on Unsplash</span>
                         <div class="post">
                             <div class="post-body">
-                                <p>I have had my Apple AirPods V1 for 2 years now (oh so hipster of me I know) and they’re the best thing I never expected to love. I will get into my relationship with my AirPods in another post in a few weeks as I’m thinking about getting the V2 as my current V1 are so full of ear wax that the sound is so low (disgusting I know).</p>
+                                <h2>I got shit on by a bird this morning</h2>
+                                <p>I was awoken this morning like I am every morning of the weekday to the sound of Alexa's voice coming from my Amazon Echo Dot, she was telling me the current weather at 7:09 am. I usually anticipate the rain or the cold and then go back to sleep until 7:30 am but this morning she told me it was -2 degrees Celsius and I got out of bed immediately. There was no way I was getting up at 7:30 and cycling, it would have been too dangerous with the frost on the roads. So, I quickly got dressed, grabbed my toothbrush to brush my teeth in work, as I had no time, and caught my dad before he left for work. I drove with him as far as the North Circular Road and then hopped out at the traffic lights to continue my journey to work ( a 30-minute walk). Just as I turned the corner heading towards the 5 Lamps a bird pooed on me! Luckily, not on my head, it was just on the arm of my coat. It’s meant to be good luck when a bird poos on you but so far my day hasn’t been very lucky it’s been average. </p>
 
-                                <p>So anyway, within the 2 years I have owned the beloved earphones I have also been cycling and have been quite active. I cycle to and from work every day and also to the gym and pretty much anywhere I need to go as I don’t drive. So in a week, I could cycle around 130km and with every cycle, I listen to podcasts. I know you shouldn’t cycle with earphones in but I only put the left one in (the opposite side to traffic in Ireland) and the volume is low enough that I can hear everything around me. It’s just nice to have something to listen to and ponder while I’m on my 40-minute commute. I also believe that you should be learning something new everyday through either reading or audio so you know 2 birds 1 stone and all that. </p>
-                                <p>Let’s get down to it, I love my AirPods but I don’t trust them. I have seen many people exercising with them in, whether it’s running, lifting weights or cycling but for me, they aren’t my go-to. When I sweat the AirPods are less secure in my ear, I am constantly adjusting them so in time I just went back to my over the head non-brand wireless headphones I got from Wish (probably the best things I’ve ever bought off of that company). For cycling, I’ve never even tried to use them because if one was to fall out while I was weaving in and out of the Dublin traffic it would be run over or lost down a drain in no time. So my solution at first was these;</p>
-                                <img src="../cuff.JPG" alt="airpods ear hook accessory">
-                                <p>They’re an around the neck ear cuff accessory for the AirPods. They were £16.99 (in pounds because there is no Irish Amazon site so we have to use the UK one, it’s very annoying) on Amazon (no longer available). You just slip them in the two holders and wrap the cuff around your ear and you’re good. Again, I would only use one and with time and wear and tear my AirPods were getting quieter and quieter and eventually needed to be angled at a certain way for you to hear anything so this accessory no longer met my requirements.</p>
-                                <p>After a year of using the ear cuff accessory, I decided to switch it up and I got something that changed the experience I had with my AirPods completely and they’re only £4.49 on Amazon. I bought them on a whim and I have not regretted it. They are something that I could not live without alongside my AirPods. This may all seem very dramatic for a piece of silicon but I absolutely love them. </p>
-                                <img src="../covers.JPG" alt="airpods silicone covers accessory">
-                                <p>They are simply just silicone covers with ear hooks. These simple little things make it feel as if you have nothing in your ear while giving you the sense of security that no matter what you aren’t going to lose one of your €179+ earphones. I know there is a lot of negativity around AirPod accessories as some people think you shouldn’t have to buy an accessory for them they should just work. And they do. AirPods just works just like your phone it just works but you still aren’t going to walk around with it naked and if you are you’re crazy or have a lot of money. No, you’re going to put a case on your phone which falls under the category of accessory. So, just because a product might require an accessory to better its experience doesn’t make that a bad product.
-</p>
-                                <p>With 2 days left in the month, I currently have 26h 1m and 406.6km done on my Strava. That’s ~26hours this month that I have used these silicon covers alongside my AirPods and I don’t know what I would do without them. They have made my daily commute so much simpler that all I have to do is grab the left AirPod from its case, slip it into the cover, stick it in my ear and go without any worries or adjusting on my ride. </p>
-                                <p>So, if you’re an avid AirPods user and are constantly adjusting the position as you walk or exercise I highly recommend buying these covers, for the little cost they make such a difference.</p>
+                                <p>I don’t know if I believe in luck. I feel we create our luck ourselves. For instance, when people say; ‘Oh, I was so lucky to get that job’, no you worked hard and built up a portfolio or a skill which in turn helped you get that job. We hate giving ourselves praise (well, most of us) so we play it off like it was nothing that we have done, it was just an accident. We, as humans, shy away from the fact that we could be good or great at something so we label it down to Lady Luck being on our side and hope that we don't mess it up. But in truth, we must have portrayed ourselves well in our job interviews or first dates or presentations to get the job, the relationship or the grade and that doesn't come down to luck it comes down to hard work, which in turn is a reflection of your personality or your skills.  </p>
+
+                                <p>I guess I don’t believe in luck because I’m too practical. I think of everything logically. I’m a developer it’s how my brain works. I don’t believe in luck but I do believe in ‘everything happens for a reason’. I do believe that the Universe works in magical ways. If my auntie never bought me that digital camera when I was 12 I would never have brought it to Florida on holidays with me and taken pictures (very very bad ones) and sparked the photography light inside of me. Further on, then I wouldn’t have taken photos on my mam’s iPhone 4s a few years later which led me to post more photography pictures on Instagram which wouldn’t of led me to taking photos in San Francisco and the next trip and the next which wouldn’t of led me to this year actually getting paid to take photos for Bodynamics, a gym nearby. There are so many situations like that in my life that I look back on. What if this never happened or that never happened or what if I did end up going to college in New York for film studies like I was researching at the time, my life would be so much different now. </p>
+                                <p>Everything happens for a reason, that’s the good times and the bad it just depends on your outlook on life. </p>
+                                
 
                             </div>
                             <div class="author-box row">
