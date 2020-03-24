@@ -59,6 +59,18 @@
                     <span>62%</span>
                 </div>
             </div>
+            <label class="progress-bar-label">React - <span>1 year experience</span></label>
+            <div class="progress">
+                <div style="width: 45%;" class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
+                    <span>45%</span>
+                </div>
+            </div>
+            <label class="progress-bar-label">Laravel - <span>1 year experience</span></label>
+            <div class="progress">
+                <div style="width: 30%;" class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                    <span>30%</span>
+                </div>
+            </div>
         </div>
         <div class="block-content">
             <h3 class="block-title">Experience</h3>
