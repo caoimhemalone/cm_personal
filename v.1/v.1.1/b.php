@@ -19,6 +19,7 @@
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139553932-2"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -67,6 +68,20 @@
       }, 800);
     });
     </script>
+
+    <script>
+    //Read Time
+$( document ).ready(function() {
+    var txt = $(".article-text")[0].textContent,
+    
+    wordCount = txt.replace( /[^\w ]/g, "" ).split( /\s+/ ).length;
+
+    var readingTimeInMinutes = Math.floor(wordCount / 228) + 1;
+    var readingTimeAsString = readingTimeInMinutes + " min read";
+    
+    $('.readingTime').html( '<span>' + readingTimeAsString+'</span>');
+});
+</script>
     <!-- First JQuery, Bootstrap, etc, ... -->
 <!--<script src="https://keyvah-ab7d.restdb.io/rest/_jsapi.js"></script>
 <script>var db = new restdb("5d52ff35f4e0a738c5ad6c6d | jwt token", options);</script>-->

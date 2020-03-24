@@ -1271,6 +1271,10 @@ h4.package {
     &:last-child {
         border-bottom: 0;
     }
+
+    .hidden-text {
+        display: none;
+    }
 }
 
 .post-thumbnail {
@@ -1290,6 +1294,7 @@ h4.package {
 .post-info {
     font-size: 14px;
     color: $peach;
+    margin-bottom: 0;
 
     &:after {
        content: "";
@@ -1313,7 +1318,8 @@ h4.package {
 }
 
 .post-body {
-    padding: 20px 0;
+    //padding: 20px 0;
+    padding: 0;
     text-align: center;
 
     p {
@@ -1460,6 +1466,12 @@ h4.package {
 .blog-post-content, .portfolio-post-content {
     .inline-menu-container {
         width: 100%;
+
+        inline-menu {
+            li {
+                margin-top: 0;
+            }
+        }
     }
 
     .block-content {

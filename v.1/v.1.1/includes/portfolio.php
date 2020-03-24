@@ -16,7 +16,7 @@
                     <div class="portfolio-container row isotope" id="portfolio-container">
                         <!-- WORK 1 START -->
                         <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item photography">
-                            <a class="open-project" href="../Portfolio/Photography/pages/coronado.php">
+                            <a class="open-project" href="../Portfolio/Photography/pages/coronado">
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
@@ -26,7 +26,7 @@
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                    <img class="lazyload" data-src="../Portfolio/Photography/IMG_0300.jpg" alt="">
+                                    <img class="lazyload" data-src="../Portfolio/Photography/IMG_0300.jpg" alt="Coronado, San Diego">
                                 </div>
                             </a>
                         </div>
@@ -43,12 +43,81 @@
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img class="lazyload" data-src="/../Portfolio/Web_Design/bodynamics.png" alt="">
+                                     <img class="lazyload" data-src="/../Portfolio/Web_Design/bodynamics.png" alt="Bodynamics Gym">
                                 </div>
                             </a>
                         </div>
                         <!-- WORK 2 END -->
                         <!-- WORK 3 START -->
+                        <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item photography">
+                            <a class="open-project" href="../Portfolio/Photography/pages/paris">
+                                <div class="portfolio-column">
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-content">
+                                            <h2>Paris</h2>
+                                            <hr>
+                                            <p>View details.</p>
+                                        </div>
+                                        <div class="portfolio-overlay"></div>
+                                    </div>
+                                    <img class="lazyload" data-src="../Portfolio/Photography/paris.jpg" alt="Paris, France">
+                                </div>
+                            </a>
+                        </div>
+                        <!-- WORK 3 END -->
+                        <!-- WORK 4 START -->
+                          <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item videography">
+                            <a class="open-project" href="https://www.youtube.com/watch?v=nbwkYJwzaC8" target="_blank">
+                                <div class="portfolio-column">
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-content">
+                                            <h2>Summer, 2018</h2>
+                                            <hr>
+                                            <p>View details.</p>
+                                        </div>
+                                        <div class="portfolio-overlay"></div>
+                                    </div>
+                                     <img class="lazyload" data-src="../Portfolio/Videography/sd_play.png" alt="San Diego">
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- WORK 4 END -->
+                        <!-- WORK 5 START -->
+                        <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item photography">
+                            <a class="open-project" href="../Portfolio/Photography/pages/grand_canyon">
+                                <div class="portfolio-column">
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-content">
+                                            <h2>The Grand Canyon</h2>
+                                            <hr>
+                                            <p>View details.</p>
+                                        </div>
+                                        <div class="portfolio-overlay"></div>
+                                    </div>
+                                     <img class="lazyload" data-src="../Portfolio/Photography/IMG_6115 copy.jpg" alt="The Grand Canyon">
+                                </div>
+                            </a>
+                        </div>
+                        <!-- WORK 5 END -->
+                        <!-- WORK 6 START -->
+                         <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item videography">
+                            <a class="open-project" href="https://www.youtube.com/watch?v=fPb12s4BK_U" target="_blank">
+                                <div class="portfolio-column">
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-content">
+                                            <h2>New York, 2018</h2>
+                                            <hr>
+                                            <p>View details.</p>
+                                        </div>
+                                        <div class="portfolio-overlay"></div>
+                                    </div>
+                                    <img class="lazyload" data-src="../Portfolio/Videography/ny_play.png" alt="New York">
+                                </div>
+                            </a>
+                        </div>
+                        <!-- WORK 6 END -->
+                        <!-- WORK 7 START -->
                         <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item webdevelopment">
                             <a class="open-project" href="https://www.casinosource.ie" target="_blank">
                                 <div class="portfolio-column">
@@ -60,63 +129,29 @@
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img class="lazyload" data-src="../Portfolio/Web_Design/CS.png" alt="">
+                                     <img class="lazyload" data-src="../Portfolio/Web_Design/CS.png" alt="CasinoSource">
                                 </div>
                             </a>
                         </div>
-                        <!-- WORK 3 END -->
-                        <!-- WORK 4 START -->
+                        <!-- WORK 7 END -->
+                        <!-- WORK 8 START -->
                         <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item photography">
-                            <a class="open-project" href="../Portfolio/Photography/pages/grand_canyon.php">
+                            <a class="open-project" href="../Portfolio/Photography/pages/london">
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
-                                            <h2>The Grand Canyon</h2>
+                                            <h2>London</h2>
                                             <hr>
                                             <p>View details.</p>
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img class="lazyload" data-src="../Portfolio/Photography/IMG_6115 copy.jpg" alt="">
+                                     <img class="lazyload" data-src="../Portfolio/Photography/london_edited-20.jpg" alt="London">
                                 </div>
                             </a>
                         </div>
-                        <!-- WORK 4 END -->
-                        <!-- WORK 5 START -->
-                        <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item videography">
-                            <a class="open-project" href="https://www.youtube.com/watch?v=nbwkYJwzaC8" target="_blank">
-                                <div class="portfolio-column">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-content">
-                                            <h2>Summer, 2018</h2>
-                                            <hr>
-                                            <p>View details.</p>
-                                        </div>
-                                        <div class="portfolio-overlay"></div>
-                                    </div>
-                                     <img class="lazyload" data-src="../Portfolio/Videography/sd_play.png" alt="">
-                                </div>
-                            </a>
-                        </div>
-                        <!-- WORK 5 END -->
-                        <!-- WORK 6 START -->
-                        <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item videography">
-                            <a class="open-project" href="https://www.youtube.com/watch?v=fPb12s4BK_U" target="_blank">
-                                <div class="portfolio-column">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-content">
-                                            <h2>New York, 2018</h2>
-                                            <hr>
-                                            <p>View details.</p>
-                                        </div>
-                                        <div class="portfolio-overlay"></div>
-                                    </div>
-                                    <img class="lazyload" data-src="../Portfolio/Videography/ny_play.png" alt="">
-                                </div>
-                            </a>
-                        </div>
-                        <!-- WORK 6 END -->
-                        <!-- WORK 7 START -->
+                        <!-- WORK 8 END -->
+                        <!-- WORK 9 START -->
                         <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item webdevelopment">
                             <a class="open-project" href="https://www.toppasportsbooks.com" target="_blank">
                                 <div class="portfolio-column">
@@ -128,29 +163,12 @@
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img class="lazyload" data-src="../Portfolio/Web_Design/toppasportsbooks.png" alt="">
+                                     <img class="lazyload" data-src="../Portfolio/Web_Design/toppasportsbooks.png" alt="toppasportsbooks">
                                 </div>
                             </a>
                         </div>
-                        <!-- WORK 7 END -->
-                        <!-- WORK 8 START -->
-                        <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item photography">
-                            <a class="open-project" href="../Portfolio/Photography/pages/london.php">
-                                <div class="portfolio-column">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-content">
-                                            <h2>London</h2>
-                                            <hr>
-                                            <p>View details.</p>
-                                        </div>
-                                        <div class="portfolio-overlay"></div>
-                                    </div>
-                                     <img class="lazyload" data-src="../Portfolio/Photography/london_edited-20.jpg" alt="">
-                                </div>
-                            </a>
-                        </div>
-                        <!-- WORK 8 END -->
-                        <!-- WORK 9 START -->
+                        <!-- WORK 9 END -->
+                        <!-- WORK 10 START -->
                         <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item videography">
                             <a class="open-project" href="https://www.youtube.com/watch?v=ZcgrNPseVfM" target="_blank">
                                 <div class="portfolio-column">
@@ -162,12 +180,12 @@
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img class="lazyload" data-src="../Portfolio/Videography/la_play.png" alt="">
+                                     <img class="lazyload" data-src="../Portfolio/Videography/la_play.png" alt="Los Angeles">
                                 </div>
                             </a>
                         </div>
-                        <!-- WORK 9 END -->
-                        <!-- WORK 10 START -->
+                        <!-- WORK 10 END -->
+                        <!-- WORK 11 START -->
                         <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item webdevelopment">
                             <a class="open-project" href="https://www.casinos.co.nz" target="_blank">
                                 <div class="portfolio-column">
@@ -179,14 +197,67 @@
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img class="lazyload" data-src="../Portfolio/Web_Design/CNZ.png" alt="">
+                                     <img class="lazyload" data-src="../Portfolio/Web_Design/CNZ.png" alt="Casinos.co.nz">
                                 </div>
                             </a>
                         </div>
-                        <!-- WORK 10 END -->
-                        <!-- WORK 11 START -->
+                        <!-- WORK 11 END -->
+                        <!-- WORK 12 START -->
+                          <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item videography">
+                            <a class="open-project" href="https://www.youtube.com/watch?v=UsK80k_sFV8" target="_blank">
+                                <div class="portfolio-column">
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-content">
+                                            <h2>Portugal, 2017</h2>
+                                            <hr>
+                                            <p>View details.</p>
+                                        </div>
+                                        <div class="portfolio-overlay"></div>
+                                    </div>
+                                     <img class="lazyload" data-src="../Portfolio/Videography/port.png" alt="Portugal">
+                                </div>
+                            </a>
+                        </div> 
+                        <!-- WORK 12 END -->
+
+                        <!-- WORK 13 START -->
                         <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item photography">
-                            <a class="open-project" href="../Portfolio/Photography/pages/bodynamics.php">
+                            <a class="open-project" href="../Portfolio/Photography/pages/los_angeles">
+                                <div class="portfolio-column">
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-content">
+                                            <h2>Los Angeles</h2>
+                                            <hr>
+                                            <p>View details.</p>
+                                        </div>
+                                        <div class="portfolio-overlay"></div>
+                                    </div>
+                                     <img class="lazyload" data-src="../Portfolio/Photography/LASFNYColourGraded-10.jpg" alt="Los Angeles">
+                                </div>
+                            </a>
+                        </div>
+                        <!-- WORK 13 END -->
+
+                        <!-- WORK 14 START -->
+                        <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item videography">
+                            <a class="open-project" href="https://www.youtube.com/watch?v=sVu2lk86k24" target="_blank">
+                                <div class="portfolio-column">
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-content">
+                                            <h2>London, 2016</h2>
+                                            <hr>
+                                            <p>View details.</p>
+                                        </div>
+                                        <div class="portfolio-overlay"></div>
+                                    </div>
+                                     <img class="lazyload" data-src="../Portfolio/Videography/london_play.png" alt="London">
+                                </div>
+                            </a>
+                        </div> 
+                        <!-- WORK 14 END -->
+                        <!-- WORK 15 START -->
+                       <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item photography">
+                            <a class="open-project" href="../Portfolio/Photography/pages/bodynamics">
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
@@ -200,42 +271,24 @@
                                 </div>
                             </a>
                         </div>
-                        <!-- WORK 11 END -->
-
-                        <!-- WORK 12 START -->
-                        <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item photography">
-                            <a class="open-project" href="../Portfolio/Photography/pages/los_angeles.php">
+                        <!-- WORK 15 END -->
+                          <!-- WORK 16 START -->
+                       <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item webdevelopment">
+                            <a class="open-project" href="https://caoimhemalone.github.io/hello-caoimhe/" target='_blank'>
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
-                                            <h2>Los Angeles</h2>
+                                            <h2>Browser Dashboard (React)</h2>
                                             <hr>
                                             <p>View details.</p>
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img class="lazyload" data-src="../Portfolio/Photography/LASFNYColourGraded-10.jpg" alt="los Angeles">
+                                     <img class="lazyload" data-src="../Portfolio/Web_Design/hello-caoimhe.png" alt="Bodynamics Gym">
                                 </div>
                             </a>
                         </div>
-                        <!-- WORK 12 END -->
-
-                        <!-- WORK 13 START -->
-                      <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item videography">
-                            <a class="open-project" href="https://www.youtube.com/watch?v=UsK80k_sFV8" target="_blank">
-                                <div class="portfolio-column">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-content">
-                                            <h2>Portugal, 2017</h2>
-                                            <hr>
-                                            <p>View details.</p>
-                                        </div>
-                                        <div class="portfolio-overlay"></div>
-                                    </div>
-                                     <img class="lazyload" data-src="../Portfolio/Videography/port.png" alt="">
-                                </div>
-                            </a>
-                        </div>                        <!-- WORK 13 END -->
+                        <!-- WORK 16 END -->
                     </div>
                 </div>
             </div>

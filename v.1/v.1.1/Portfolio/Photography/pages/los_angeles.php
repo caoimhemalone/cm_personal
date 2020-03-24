@@ -10,10 +10,10 @@
     <meta name="description" content="Los Angeles, California, 2018 | key-vah.com | Caoimhe Malone">
     <meta name="author" content="Caoimhe Malone" />
     
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../favicon-16x16.png">
+    <link rel="manifest" href="../../../site.webmanifest">
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139553932-2"></script>
@@ -49,7 +49,7 @@
                             <div class="post-body">
                                 <div class="project-head">
                                     <h1 class="block-title">Los Angeles, California,  Summer 2018</h1>
-                                    <p>At the end of Summer, we took a bus from SAn Diego to LA and spent a few days there exploring.</p>
+                                    <p>At the end of Summer, we took a bus from San Diego to LA and spent a few days there exploring.</p>
                                 </div>
                                 
                                 <div class="project-media row">
