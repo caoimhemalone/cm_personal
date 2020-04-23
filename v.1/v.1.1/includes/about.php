@@ -1,9 +1,12 @@
- <div class="content-blocks about">
+$current_year = 2020;
+$birth_year = 1995;
+$age = $current_year - $birth_year - 1;
+<div class="content-blocks about">
     <section class="content" id="about">
         <div class="block-content">
             <h3 class="block-title">Profile</h3>
-            <h3 class="subheading">I'm a <strong> Professional Frontend Developer</strong> from Dublin, Ireland. I'm a part time Photographer who also has an interest in videography.</h3>
-            <p>I'm a 23 year old Computer Science graduate. I'm a full time Frontend Developer who also does freelance Web Development and Photography. I enjoy making travel videos and I'm an avid cyclist. I cycle ~100KM a week commuting to work and travelling around Dublin. Add me on <a href="https://www.strava.com/athletes/23509081" target="_blank">Strava</a>.</p>
+            <h3 class="subheading">Hi I'm Caoimhe Malone and I'm a <strong> Professional Frontend Developer</strong> from Dublin, Ireland. I'm a part time Photographer who also has an interest in videography.</h3>
+            <p>I'm a $age year old Computer Science graduate. I'm a full time Frontend Developer who also does freelance Web Development and Photography. I enjoy making travel videos and I'm an avid cyclist. I cycle ~100KM a week commuting to work and travelling around Dublin. Add me on <a href="https://www.strava.com/athletes/23509081" target="_blank">Strava</a>.</p>
             <div class="info-list row">
                 <div class="col-sm-6"><span>Name : </span> Caoimhe Malone (key-vah)</div>
                 <div class="col-sm-6"><span>Date of birth : </span> September 2, 1995 </div>
@@ -16,6 +19,18 @@
         </div>
         <div class="block-content">
             <h3 class="block-title">Skills</h3>
+            <label class="progress-bar-label">React - <span>1 year experience</span></label>
+            <div class="progress">
+                <div style="width: 45%;" class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
+                    <span>45%</span>
+                </div>
+            </div>
+            <label class="progress-bar-label">Laravel - <span>1 year experience</span></label>
+            <div class="progress">
+                <div style="width: 30%;" class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                    <span>30%</span>
+                </div>
+            </div>
            <label class="progress-bar-label">Final Cut Pro X - <span>7 years experience</span></label>
             <div class="progress">
                 <div style="width: 88%;" class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">
@@ -57,18 +72,6 @@
             <div class="progress">
                 <div style="width: 62%;" class="progress-bar" role="progressbar" aria-valuenow="62" aria-valuemin="0" aria-valuemax="100">
                     <span>62%</span>
-                </div>
-            </div>
-            <label class="progress-bar-label">React - <span>1 year experience</span></label>
-            <div class="progress">
-                <div style="width: 45%;" class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
-                    <span>45%</span>
-                </div>
-            </div>
-            <label class="progress-bar-label">Laravel - <span>1 year experience</span></label>
-            <div class="progress">
-                <div style="width: 30%;" class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
-                    <span>30%</span>
                 </div>
             </div>
         </div>
