@@ -41,7 +41,7 @@
     <section class="blog-post-content">
         <?php include("../includes/other-pages-menu.php");?>
 
-        <div id="blog-header" style="background: url(../desk.jpeg); background-size: cover;">
+        <div id="blog-header" style="background: url(images/desk.jpeg); background-size: cover;">
             <div class="overlay"></div>
             <div class="single-post-title">
                 <h1>Why I don’t think the 5am club is the only way to be productive</h1>

@@ -29,19 +29,19 @@
 
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
-    <link rel="stylesheet" href="../../../styles/plugins.min.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../../styles/plugins.min.css" type="text/css" media="screen" />
     <!-- <link rel="stylesheet" href="styles/main.css" type="text/css" media="screen" /> -->
-    <link href="../../../Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../Bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="   crossorigin="anonymous"></script>
 
-    <style type="text/css"><?php include("../../../styles/main.css");?></style>
+    <style type="text/css"><?php include("../../styles/main.css");?></style>
 </head>
 
 
 <body>
     <section class="portfolio-post-content">
-        <?php include("../../../includes/other-pages-menu.php");?>
+        <?php include("../../includes/other-pages-menu.php");?>
 
         <div class="block-content">
             <div class="row">
@@ -56,52 +56,52 @@
                                 
                                 <div class="project-media row">
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../los_angeles_images/LASFNYColourGraded-39.jpg" alt="Los Angeles">
-                                        <img class="lazyload" data-src="../los_angeles_images/LASFNYColourGraded-32.jpg" alt="Los Angeles">
+                                        <img class="lazyload" data-src="los_angeles_images/LASFNYColourGraded-39.jpg" alt="Los Angeles">
+                                        <img class="lazyload" data-src="los_angeles_images/LASFNYColourGraded-32.jpg" alt="Los Angeles">
                                     </div>
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../los_angeles_images/LASFNYColourGraded-28.jpg" alt="Los Angeles">
+                                        <img class="lazyload" data-src="los_angeles_images/LASFNYColourGraded-28.jpg" alt="Los Angeles">
                                     </div>
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../los_angeles_images/LASFNYColourGraded-30.jpg" alt="Los Angeles">
+                                        <img class="lazyload" data-src="los_angeles_images/LASFNYColourGraded-30.jpg" alt="Los Angeles">
                                     </div>
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../los_angeles_images/LASFNYColourGraded-49.jpg" alt="Los Angeles">
+                                        <img class="lazyload" data-src="los_angeles_images/LASFNYColourGraded-49.jpg" alt="Los Angeles">
                                     </div>
                                 </div>   
 
                                 <div class="project-media row">
    
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../los_angeles_images/LASFNYColourGraded-24.jpg" alt="Los Angeles">
-                                        <img class="lazyload" data-src="../los_angeles_images/LASFNYColourGraded-40.jpg" alt="Los Angeles">
+                                        <img class="lazyload" data-src="los_angeles_images/LASFNYColourGraded-24.jpg" alt="Los Angeles">
+                                        <img class="lazyload" data-src="los_angeles_images/LASFNYColourGraded-40.jpg" alt="Los Angeles">
                                     </div>
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../los_angeles_images/LASFNYColourGraded-5.jpg" alt="Los Angeles">
+                                        <img class="lazyload" data-src="los_angeles_images/LASFNYColourGraded-5.jpg" alt="Los Angeles">
                                     </div>
                                     
                                 </div>  
 
                                 <div class="project-media row">
                                     <div class="col-md-6">
-                                         <img class="lazyload" data-src="../los_angeles_images/LASFNYColourGraded-8.jpg" alt="Los Angeles">
-                                         <img class="lazyload" data-src="../los_angeles_images/LASFNYColourGraded-9.jpg" alt="Los Angeles">
-                                        <img class="lazyload" data-src="../los_angeles_images/LASFNYColourGraded-10.jpg" alt="Los Angeles">
+                                         <img class="lazyload" data-src="los_angeles_images/LASFNYColourGraded-8.jpg" alt="Los Angeles">
+                                         <img class="lazyload" data-src="los_angeles_images/LASFNYColourGraded-9.jpg" alt="Los Angeles">
+                                        <img class="lazyload" data-src="los_angeles_images/LASFNYColourGraded-10.jpg" alt="Los Angeles">
                                     </div>
 
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../los_angeles_images/LASFNYColourGraded-3.jpg" alt="Los Angeles">
+                                        <img class="lazyload" data-src="los_angeles_images/LASFNYColourGraded-3.jpg" alt="Los Angeles">
                                     </div>
                                 </div>  
 
                                 <div class="project-media row">
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../los_angeles_images/LASFNYColourGraded-16.jpg" alt="Los Angeles">
+                                        <img class="lazyload" data-src="los_angeles_images/LASFNYColourGraded-16.jpg" alt="Los Angeles">
                                     </div>
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../los_angeles_images/LASFNYColourGraded-20.jpg" alt="Los Angeles">
-                                        <img class="lazyload" data-src="../los_angeles_images/LASFNYColourGraded-18.jpg" alt="Los Angeles">
-                                         <img class="lazyload" data-src="../los_angeles_images/LASFNYColourGraded-19.jpg" alt="Los Angeles">
+                                        <img class="lazyload" data-src="los_angeles_images/LASFNYColourGraded-20.jpg" alt="Los Angeles">
+                                        <img class="lazyload" data-src="los_angeles_images/LASFNYColourGraded-18.jpg" alt="Los Angeles">
+                                         <img class="lazyload" data-src="los_angeles_images/LASFNYColourGraded-19.jpg" alt="Los Angeles">
                                     </div>
                                 </div>                            
                             </div>
@@ -113,14 +113,14 @@
 
     </section>
 
-    <script><?php include("../../../scripts/min/main.js");?></script>
-    <script src="../../../scripts/plugins.min.js"></script><script>    
+    <script><?php include("../../scripts/min/main.js");?></script>
+    <script src="../../scripts/plugins.min.js"></script><script>    
         // Set the options to make LazyLoad self-initialize 
         window.lazyLoadOptions = {  
             elements_selector: ".lazyload",  
         };
     </script>
     <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.0.0/dist/lazyload.min.js"></script>
-    <script src="../../../Bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../Bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -29,19 +29,19 @@
 
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
-    <link rel="stylesheet" href="../../../styles/plugins.min.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../../styles/plugins.min.css" type="text/css" media="screen" />
     <!-- <link rel="stylesheet" href="styles/main.css" type="text/css" media="screen" /> -->
-    <link href="../../../Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../Bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="   crossorigin="anonymous"></script>
 
-    <style type="text/css"><?php include("../../../styles/main.css");?></style>
+    <style type="text/css"><?php include("../../styles/main.css");?></style>
 </head>
 
 
 <body>
     <section class="portfolio-post-content">
-        <?php include("../../../includes/other-pages-menu.php");?>
+        <?php include("../../includes/other-pages-menu.php");?>
 
         <div class="block-content">
             <div class="row">
@@ -56,32 +56,32 @@
                                 
                                 <div class="project-media row">
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../paris_images/paris_10.jpg" alt="Sacre Couer, Paris">
-                                        <img class="lazyload" data-src="../paris_images/paris_12.jpg" alt="Arc de Triomphe, Paris">
+                                        <img class="lazyload" data-src="paris_images/paris_10.jpg" alt="Sacre Couer, Paris">
+                                        <img class="lazyload" data-src="paris_images/paris_12.jpg" alt="Arc de Triomphe, Paris">
                                     </div>
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../paris_images/paris_4.jpg" alt="Notre Dame, Paris">
+                                        <img class="lazyload" data-src="paris_images/paris_4.jpg" alt="Notre Dame, Paris">
                                     </div>
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../paris_images/paris_14.jpg" alt="Paris">
+                                        <img class="lazyload" data-src="paris_images/paris_14.jpg" alt="Paris">
                                     </div>
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../paris_images/paris_9.jpg" alt="Paris">
-                                        <img class="lazyload" data-src="../paris_images/paris_5.jpg" alt="Paris">
+                                        <img class="lazyload" data-src="paris_images/paris_9.jpg" alt="Paris">
+                                        <img class="lazyload" data-src="paris_images/paris_5.jpg" alt="Paris">
                                     </div>
                                 </div>   
 
                                 <div class="project-media row">
    
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../paris_images/paris_13.jpg" alt="Paris">
-                                        <img class="lazyload" data-src="../paris_images/paris_11.jpg" alt="Paris">
+                                        <img class="lazyload" data-src="paris_images/paris_13.jpg" alt="Paris">
+                                        <img class="lazyload" data-src="paris_images/paris_11.jpg" alt="Paris">
                                        
                                     </div>
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../paris_images/paris_1.jpg" alt="Paris">
-                                        <img class="lazyload" data-src="../paris_images/paris_7.jpg" alt="The Louvre, Paris">
-                                         <img class="lazyload" data-src="../paris_images/paris_2.jpg" alt="Paris">
+                                        <img class="lazyload" data-src="paris_images/paris_1.jpg" alt="Paris">
+                                        <img class="lazyload" data-src="paris_images/paris_7.jpg" alt="The Louvre, Paris">
+                                         <img class="lazyload" data-src="paris_images/paris_2.jpg" alt="Paris">
                                         
                                     </div>
                                     
@@ -90,13 +90,13 @@
                                 <div class="project-media row">
                                     <div class="col-md-6">
                                          
-                                        <img class="lazyload" data-src="../paris_images/paris_8.jpg" alt="Paris">
-                                         <img class="lazyload" data-src="../paris_images/paris_6.jpg" alt="Disney Castle, Paris">
+                                        <img class="lazyload" data-src="paris_images/paris_8.jpg" alt="Paris">
+                                         <img class="lazyload" data-src="paris_images/paris_6.jpg" alt="Disney Castle, Paris">
                                         
                                     </div>
 
                                     <div class="col-md-6">
-                                         <img class="lazyload" data-src="../paris_images/paris_3.jpg" alt="Eiffel Tower, Paris">
+                                         <img class="lazyload" data-src="paris_images/paris_3.jpg" alt="Eiffel Tower, Paris">
                                     </div>
                                 </div>
                             </div>
@@ -108,14 +108,14 @@
 
     </section>
 
-    <script><?php include("../../../scripts/min/main.js");?></script>
-    <script src="../../../scripts/plugins.min.js"></script><script>    
+    <script><?php include("../../scripts/min/main.js");?></script>
+    <script src="../../scripts/plugins.min.js"></script><script>    
         // Set the options to make LazyLoad self-initialize 
         window.lazyLoadOptions = {  
             elements_selector: ".lazyload",  
         };
     </script>
     <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.0.0/dist/lazyload.min.js"></script>
-    <script src="../../../Bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../Bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

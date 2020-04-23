@@ -134,7 +134,7 @@
                     <div class="post col-md-6">
                         <div class="post-thumbnail">
                             <a class="open-post" href="/blog/airpods-covers-review">
-                                <img class="lazyload" data-src="airpods.jpeg" alt="airpods">
+                                <img class="lazyload" data-src="../blog/images/airpods.jpeg" alt="airpods">
                             </a>
                         </div>
                         <div class="post-title">
@@ -175,7 +175,7 @@
                     <div class="post col-md-6">
                         <div class="post-thumbnail">
                             <a class="open-post" href="blog/the-5am-club">
-                                <img class="lazyload" data-src="desk.jpeg" alt="desk">
+                                <img class="lazyload" data-src="../blog/images/desk.jpeg" alt="desk">
                             </a>
                         </div>
                         <div class="post-title">

@@ -29,19 +29,19 @@
 
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
-    <link rel="stylesheet" href="../../../styles/plugins.min.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../../styles/plugins.min.css" type="text/css" media="screen" />
     <!-- <link rel="stylesheet" href="styles/main.css" type="text/css" media="screen" /> -->
-    <link href="../../../Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../Bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="   crossorigin="anonymous"></script>
 
-    <style type="text/css"><?php include("../../../styles/main.css");?></style>
+    <style type="text/css"><?php include("../../styles/main.css");?></style>
 </head>
 
 
 <body>
     <section class="portfolio-post-content">
-        <?php include("../../../includes/other-pages-menu.php");?>
+        <?php include("../../includes/other-pages-menu.php");?>
 
         <div class="block-content">
             <div class="row">
@@ -59,26 +59,26 @@
                                     
                                      
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../grand_canyon_images/gc_3.jpg" alt="The Grand Canyon">
-                                        <img class="lazyload" data-src="../grand_canyon_images/gc_6.jpg" alt="The Grand Canyon">
+                                        <img class="lazyload" data-src="grand_canyon_images/gc_3.jpg" alt="The Grand Canyon">
+                                        <img class="lazyload" data-src="grand_canyon_images/gc_6.jpg" alt="The Grand Canyon">
                                     </div>
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../grand_canyon_images/gc_5.jpg" alt="The Grand Canyon">
+                                        <img class="lazyload" data-src="grand_canyon_images/gc_5.jpg" alt="The Grand Canyon">
                                     </div>   
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../grand_canyon_images/gc_2.jpg" alt="The Grand Canyon">
-                                        <img class="lazyload" data-src="../grand_canyon_images/gc_8.jpg" alt="The Grand Canyon">
+                                        <img class="lazyload" data-src="grand_canyon_images/gc_2.jpg" alt="The Grand Canyon">
+                                        <img class="lazyload" data-src="grand_canyon_images/gc_8.jpg" alt="The Grand Canyon">
                                     </div>                                
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../grand_canyon_images/gc_4.jpg" alt="Coronado">
+                                        <img class="lazyload" data-src="grand_canyon_images/gc_4.jpg" alt="Coronado">
                                     </div>
                                      <div class="col-md-6">
-                                        <img class="lazyload" data-src="../grand_canyon_images/gc_1.jpg" alt="The Grand Canyon">
-                                        <img class="lazyload" data-src="../grand_canyon_images/gc_10.jpg" alt="The Grand Canyon">
+                                        <img class="lazyload" data-src="grand_canyon_images/gc_1.jpg" alt="The Grand Canyon">
+                                        <img class="lazyload" data-src="grand_canyon_images/gc_10.jpg" alt="The Grand Canyon">
                                     </div>
                                      <div class="col-md-6">
-                                        <img class="lazyload" data-src="../grand_canyon_images/gc_7.jpg" alt="The Grand Canyon">
-                                        <img class="lazyload" data-src="../grand_canyon_images/gc_9.jpg" alt="The Grand Canyon">
+                                        <img class="lazyload" data-src="grand_canyon_images/gc_7.jpg" alt="The Grand Canyon">
+                                        <img class="lazyload" data-src="grand_canyon_images/gc_9.jpg" alt="The Grand Canyon">
                                     </div>
                                 </div> 
 
@@ -86,35 +86,35 @@
                                     <div class="col-md-12"><h2>The Hoover Dam</h2></div>
                                 
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../grand_canyon_images/hd_1.jpg" alt="Hoover Dam">
+                                        <img class="lazyload" data-src="grand_canyon_images/hd_1.jpg" alt="Hoover Dam">
                                     </div>
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../grand_canyon_images/hd_2.jpg" alt="Hoover Dam">
+                                        <img class="lazyload" data-src="grand_canyon_images/hd_2.jpg" alt="Hoover Dam">
                                     </div>
                                 </div>
 
                                 <div class="project-media row">
                                     <div class="col-md-12"><h2>Seligman, Route 66, Arizona</h2></div>
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../grand_canyon_images/sm_6.jpg" alt="Route 66">
+                                        <img class="lazyload" data-src="grand_canyon_images/sm_6.jpg" alt="Route 66">
                                     </div>
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../grand_canyon_images/sm_1.jpg" alt="Route 66">
-                                        <img class="lazyload" data-src="../grand_canyon_images/sm_9.jpg" alt="Route 66">
+                                        <img class="lazyload" data-src="grand_canyon_images/sm_1.jpg" alt="Route 66">
+                                        <img class="lazyload" data-src="grand_canyon_images/sm_9.jpg" alt="Route 66">
                                     </div>
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../grand_canyon_images/sm_4.jpg" alt="Route 66">
+                                        <img class="lazyload" data-src="grand_canyon_images/sm_4.jpg" alt="Route 66">
                                     </div>
                                      <div class="col-md-6">
-                                        <img class="lazyload" data-src="../grand_canyon_images/sm_3.jpg" alt="Route 66">
-                                        <img class="lazyload" data-src="../grand_canyon_images/sm_8.jpg" alt="Route 66">
+                                        <img class="lazyload" data-src="grand_canyon_images/sm_3.jpg" alt="Route 66">
+                                        <img class="lazyload" data-src="grand_canyon_images/sm_8.jpg" alt="Route 66">
                                     </div>
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../grand_canyon_images/sm_5.jpg" alt="Route 66">
+                                        <img class="lazyload" data-src="grand_canyon_images/sm_5.jpg" alt="Route 66">
                                     </div>
                                      <div class="col-md-6">
-                                        <img class="lazyload" data-src="../grand_canyon_images/sm_2.jpg" alt="Route 66">
-                                        <img class="lazyload" data-src="../grand_canyon_images/sm_7.jpg" alt="Route 66">
+                                        <img class="lazyload" data-src="grand_canyon_images/sm_2.jpg" alt="Route 66">
+                                        <img class="lazyload" data-src="grand_canyon_images/sm_7.jpg" alt="Route 66">
                                     </div>
                                 </div>                              
                             </div>
@@ -138,8 +138,8 @@
 
     </section>
 
-    <script><?php include("../../../scripts/min/main.js");?></script>
-    <script src="../../../scripts/plugins.min.js"></script>
+    <script><?php include("../../scripts/min/main.js");?></script>
+    <script src="../../scripts/plugins.min.js"></script>
     <script>    
         // Set the options to make LazyLoad self-initialize 
         window.lazyLoadOptions = {  
@@ -147,6 +147,6 @@
         };
     </script>
     <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.0.0/dist/lazyload.min.js"></script>
-    <script src="../../../Bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../Bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

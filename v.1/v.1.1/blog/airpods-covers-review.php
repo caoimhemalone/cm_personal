@@ -43,7 +43,7 @@
     <section class="blog-post-content">
         <?php include("../includes/other-pages-menu.php");?>
 
-        <div id="blog-header" style="background: url(../airpods.jpeg); background-size: cover;">
+        <div id="blog-header" style="background: url(images/airpods.jpeg); background-size: cover;">
             <div class="overlay"></div>
             <div class="single-post-title">
                 <h1>How this £4.49 Amazon accessory changed my AirPods experience completely</h1>

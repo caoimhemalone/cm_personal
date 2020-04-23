@@ -29,19 +29,19 @@
 
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
-    <link rel="stylesheet" href="../../../styles/plugins.min.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../../styles/plugins.min.css" type="text/css" media="screen" />
     <!-- <link rel="stylesheet" href="styles/main.css" type="text/css" media="screen" /> -->
-    <link href="../../../Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../Bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="   crossorigin="anonymous"></script>
 
-    <style type="text/css"><?php include("../../../styles/main.css");?></style>
+    <style type="text/css"><?php include("../../styles/main.css");?></style>
 </head>
 
 
 <body>
     <section class="portfolio-post-content">
-        <?php include("../../../includes/other-pages-menu.php");?>
+        <?php include("../../includes/other-pages-menu.php");?>
 
         <div class="block-content">
             <div class="row">
@@ -58,51 +58,51 @@
                                     <div class="col-md-12"><h2>London 2018</h2></div>
      
                                     <div class="col-md-4">
-                                        <img class="lazyload" data-src="../london_images/ldn_1.jpg" alt="London">
+                                        <img class="lazyload" data-src="london_images/ldn_1.jpg" alt="London">
                                     </div>   
                                 
                                     <div class="col-md-4">
-                                        <img class="lazyload" data-src="../london_images/ldn_2.jpg" alt="London">
+                                        <img class="lazyload" data-src="london_images/ldn_2.jpg" alt="London">
                                     </div>
                                      <div class="col-md-4">
-                                        <img class="lazyload" data-src="../london_images/ldn_3.jpg" alt="The London">
+                                        <img class="lazyload" data-src="london_images/ldn_3.jpg" alt="The London">
                                     </div>
                                 </div> 
 
                                 <div class="project-media row">
                                     <div class="col-md-12"><h2>London 2016</h2></div>
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../_imagesldn_11.jpg" alt="London">
+                                        <img class="lazyload" data-src="london_images/ldn_11.jpg" alt="London">
                                     </div>
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../london_images/ldn_4.jpg" alt="London">
-                                        <img class="lazyload" data-src="../london_images/ldn_6.jpg" alt="London">
-                                        <img class="lazyload" data-src="../london_images/ldn_14.jpg" alt="London">
+                                        <img class="lazyload" data-src="london_images/ldn_4.jpg" alt="London">
+                                        <img class="lazyload" data-src="london_images/ldn_6.jpg" alt="London">
+                                        <img class="lazyload" data-src="london_images/ldn_14.jpg" alt="London">
                                     </div>
                                      <div class="col-md-6">
-                                        <img class="lazyload" data-src="../london_images/ldn_5.jpg" alt="London">
-                                        <img class="lazyload" data-src="../london_images/ldn_10.jpg" alt="London">
-                                        <img class="lazyload" data-src="../london_images/ldn_8.jpg" alt="London">
+                                        <img class="lazyload" data-src="london_images/ldn_5.jpg" alt="London">
+                                        <img class="lazyload" data-src="london_images/ldn_10.jpg" alt="London">
+                                        <img class="lazyload" data-src="london_images/ldn_8.jpg" alt="London">
                                     </div>
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../london_images/ldn_18.jpg" alt="London">
+                                        <img class="lazyload" data-src="london_images/ldn_18.jpg" alt="London">
                                     </div>
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../london_images/ldn_19.jpg" alt="London">
+                                        <img class="lazyload" data-src="london_images/ldn_19.jpg" alt="London">
                                     </div>
                                      <div class="col-md-6">
-                                        <img class="lazyload" data-src="../london_images/ldn_7.jpg" alt="London">
-                                        <img class="lazyload" data-src="../london_images/ldn_13.jpg" alt="London">
-                                        <img class="lazyload" data-src="../london_images/ldn_15.jpg" alt="London">
+                                        <img class="lazyload" data-src="london_images/ldn_7.jpg" alt="London">
+                                        <img class="lazyload" data-src="london_images/ldn_13.jpg" alt="London">
+                                        <img class="lazyload" data-src="london_images/ldn_15.jpg" alt="London">
                                     </div>
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../london_images/ldn_12.jpg" alt="London">
+                                        <img class="lazyload" data-src="london_images/ldn_12.jpg" alt="London">
                                     </div>
                                     <div class="col-md-6">
-                                        <img class="lazyload" data-src="../london_images/ldn_9.jpg" alt="London">
+                                        <img class="lazyload" data-src="london_images/ldn_9.jpg" alt="London">
                                     </div>
                                     <div class="col-md-12">
-                                        <img class="lazyload" data-src="../london_images/ldn_17.jpg" alt="London">
+                                        <img class="lazyload" data-src="london_images/ldn_17.jpg" alt="London">
                                     </div>
                                 </div>                              
                             </div>
@@ -126,8 +126,8 @@
 
     </section>
 
-    <script><?php include("../../../scripts/min/main.js");?></script>
-    <script src="../../../scripts/plugins.min.js"></script>
+    <script><?php include("../../scripts/min/main.js");?></script>
+    <script src="../../scripts/plugins.min.js"></script>
     <script>    
         // Set the options to make LazyLoad self-initialize 
         window.lazyLoadOptions = {  
@@ -135,6 +135,6 @@
         };
     </script>
     <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.0.0/dist/lazyload.min.js"></script>
-    <script src="../../../Bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../Bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

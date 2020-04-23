@@ -26,7 +26,7 @@
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                    <img class="lazyload" data-src="../Portfolio/Photography/IMG_0300.jpg" alt="Coronado, San Diego">
+                                    <img class="lazyload" data-src="../portfolio/photography/IMG_0300.jpg" alt="Coronado, San Diego">
                                 </div>
                             </a>
                         </div>
@@ -43,7 +43,7 @@
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img class="lazyload" data-src="/../Portfolio/Web_Design/bodynamics.png" alt="Bodynamics Gym">
+                                     <img class="lazyload" data-src="/../portfolio/Web_Design/bodynamics.png" alt="Bodynamics Gym">
                                 </div>
                             </a>
                         </div>
@@ -60,7 +60,7 @@
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                    <img class="lazyload" data-src="../Portfolio/Photography/paris.jpg" alt="Paris, France">
+                                    <img class="lazyload" data-src="../portfolio/photography/paris.jpg" alt="Paris, France">
                                 </div>
                             </a>
                         </div>
@@ -77,7 +77,7 @@
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img class="lazyload" data-src="../Portfolio/Videography/sd_play.png" alt="San Diego">
+                                     <img class="lazyload" data-src="../portfolio/Videography/sd_play.png" alt="San Diego">
                                 </div>
                             </a>
                         </div>
@@ -95,7 +95,7 @@
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img class="lazyload" data-src="../Portfolio/Photography/IMG_6115 copy.jpg" alt="The Grand Canyon">
+                                     <img class="lazyload" data-src="../portfolio/photography/IMG_6115 copy.jpg" alt="The Grand Canyon">
                                 </div>
                             </a>
                         </div>
@@ -112,7 +112,7 @@
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                    <img class="lazyload" data-src="../Portfolio/Videography/ny_play.png" alt="New York">
+                                    <img class="lazyload" data-src="../portfolio/Videography/ny_play.png" alt="New York">
                                 </div>
                             </a>
                         </div>
@@ -129,7 +129,7 @@
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img class="lazyload" data-src="../Portfolio/Web_Design/CS.png" alt="CasinoSource">
+                                     <img class="lazyload" data-src="../portfolio/Web_Design/CS.png" alt="CasinoSource">
                                 </div>
                             </a>
                         </div>
@@ -146,7 +146,7 @@
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img class="lazyload" data-src="../Portfolio/Photography/london_edited-20.jpg" alt="London">
+                                     <img class="lazyload" data-src="../portfolio/photography/london_edited-20.jpg" alt="London">
                                 </div>
                             </a>
                         </div>
@@ -163,7 +163,7 @@
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img class="lazyload" data-src="../Portfolio/Web_Design/toppasportsbooks.png" alt="toppasportsbooks">
+                                     <img class="lazyload" data-src="../portfolio/Web_Design/toppasportsbooks.png" alt="toppasportsbooks">
                                 </div>
                             </a>
                         </div>
@@ -180,7 +180,7 @@
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img class="lazyload" data-src="../Portfolio/Videography/la_play.png" alt="Los Angeles">
+                                     <img class="lazyload" data-src="../portfolio/Videography/la_play.png" alt="Los Angeles">
                                 </div>
                             </a>
                         </div>
@@ -197,7 +197,7 @@
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img class="lazyload" data-src="../Portfolio/Web_Design/CNZ.png" alt="Casinos.co.nz">
+                                     <img class="lazyload" data-src="../portfolio/Web_Design/CNZ.png" alt="Casinos.co.nz">
                                 </div>
                             </a>
                         </div>
@@ -214,7 +214,7 @@
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img class="lazyload" data-src="../Portfolio/Videography/port.png" alt="Portugal">
+                                     <img class="lazyload" data-src="../portfolio/Videography/port.png" alt="Portugal">
                                 </div>
                             </a>
                         </div> 
@@ -232,7 +232,7 @@
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img class="lazyload" data-src="../Portfolio/Photography/LASFNYColourGraded-10.jpg" alt="Los Angeles">
+                                     <img class="lazyload" data-src="../portfolio/photography/LASFNYColourGraded-10.jpg" alt="Los Angeles">
                                 </div>
                             </a>
                         </div>
@@ -250,7 +250,7 @@
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img class="lazyload" data-src="../Portfolio/Videography/london_play.png" alt="London">
+                                     <img class="lazyload" data-src="../portfolio/Videography/london_play.png" alt="London">
                                 </div>
                             </a>
                         </div> 
@@ -267,7 +267,7 @@
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img class="lazyload" data-src="../Portfolio/Photography/Bodynamics-130 copy.jpg" alt="Bodynamics Gym">
+                                     <img class="lazyload" data-src="../portfolio/photography/Bodynamics-130 copy.jpg" alt="Bodynamics Gym">
                                 </div>
                             </a>
                         </div>
@@ -284,7 +284,7 @@
                                         </div>
                                         <div class="portfolio-overlay"></div>
                                     </div>
-                                     <img class="lazyload" data-src="../Portfolio/Web_Design/hello-caoimhe.png" alt="Bodynamics Gym">
+                                     <img class="lazyload" data-src="../portfolio/Web_Design/hello-caoimhe.png" alt="Bodynamics Gym">
                                 </div>
                             </a>
                         </div>
