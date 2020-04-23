@@ -16,7 +16,7 @@
                     <div class="portfolio-container row isotope" id="portfolio-container">
                         <!-- WORK 1 START -->
                         <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item photography">
-                            <a class="open-project" href="../Portfolio/Photography/pages/coronado">
+                            <a class="open-project" href="https://www.key-vah.com/portfolio/photography/coronado">
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
@@ -50,7 +50,7 @@
                         <!-- WORK 2 END -->
                         <!-- WORK 3 START -->
                         <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item photography">
-                            <a class="open-project" href="../Portfolio/Photography/pages/paris">
+                            <a class="open-project" href="https://www.key-vah.com/portfolio/photography/paris">
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
@@ -85,7 +85,7 @@
                         <!-- WORK 4 END -->
                         <!-- WORK 5 START -->
                         <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item photography">
-                            <a class="open-project" href="../Portfolio/Photography/pages/grand_canyon">
+                            <a class="open-project" href="https://www.key-vah.com/portfolio/photography/the-grand-canyon">
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
@@ -136,7 +136,7 @@
                         <!-- WORK 7 END -->
                         <!-- WORK 8 START -->
                         <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item photography">
-                            <a class="open-project" href="../Portfolio/Photography/pages/london">
+                            <a class="open-project" href="https://www.key-vah.com/portfolio/photography/london">
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
@@ -222,7 +222,7 @@
 
                         <!-- WORK 13 START -->
                         <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item photography">
-                            <a class="open-project" href="../Portfolio/Photography/pages/los_angeles">
+                            <a class="open-project" href="https://www.key-vah.com/portfolio/photography/los-angeles">
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
@@ -257,7 +257,7 @@
                         <!-- WORK 14 END -->
                         <!-- WORK 15 START -->
                        <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item photography">
-                            <a class="open-project" href="../Portfolio/Photography/pages/bodynamics">
+                            <a class="open-project" href="https://www.key-vah.com/portfolio/photography/bodynamics">
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
