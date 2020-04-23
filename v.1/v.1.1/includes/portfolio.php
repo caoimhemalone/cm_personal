@@ -20,7 +20,7 @@
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
-                                            <h2>Coronado, San Diego</h2>
+                                            <span class="title">Coronado, San Diego</span>
                                             <hr>
                                             <p>View details.</p>
                                         </div>
@@ -37,7 +37,7 @@
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
-                                            <h2>Bodynamics</h2>
+                                            <span class="title">Bodynamics</span>
                                             <hr>
                                             <p>View details.</p>
                                         </div>
@@ -54,7 +54,7 @@
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
-                                            <h2>Paris</h2>
+                                            <span class="title">Paris</span>
                                             <hr>
                                             <p>View details.</p>
                                         </div>
@@ -71,7 +71,7 @@
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
-                                            <h2>Summer, 2018</h2>
+                                            <span class="title">Summer, 2018</span>
                                             <hr>
                                             <p>View details.</p>
                                         </div>
@@ -89,7 +89,7 @@
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
-                                            <h2>The Grand Canyon</h2>
+                                            <span class="title">The Grand Canyon</span>
                                             <hr>
                                             <p>View details.</p>
                                         </div>
@@ -106,7 +106,7 @@
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
-                                            <h2>New York, 2018</h2>
+                                            <span class="title">New York, 2018</span>
                                             <hr>
                                             <p>View details.</p>
                                         </div>
@@ -123,7 +123,7 @@
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
-                                            <h2>CasinoSource</h2>
+                                            <span class="title">CasinoSource</span>
                                             <hr>
                                             <p>View details.</p>
                                         </div>
@@ -140,7 +140,7 @@
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
-                                            <h2>London</h2>
+                                            <span class="title">London</span>
                                             <hr>
                                             <p>View details.</p>
                                         </div>
@@ -157,7 +157,7 @@
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
-                                            <h2>Top PA Sportsbooks</h2>
+                                            <<span class="title">Top PA Sportsbooks</span>
                                             <hr>
                                             <p>View details.</p>
                                         </div>
@@ -174,7 +174,7 @@
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
-                                            <h2>Los Angeles, 2018</h2>
+                                            <span class="title">Los Angeles, 2018</span>
                                             <hr>
                                             <p>View details.</p>
                                         </div>
@@ -191,7 +191,7 @@
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
-                                            <h2>Casinos.co.nz</h2>
+                                            <span class="title">Casinos.co.nz</span>
                                             <hr>
                                             <p>View details.</p>
                                         </div>
@@ -208,7 +208,7 @@
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
-                                            <h2>Portugal, 2017</h2>
+                                            <span class="title">Portugal, 2017</span>
                                             <hr>
                                             <p>View details.</p>
                                         </div>
@@ -226,7 +226,7 @@
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
-                                            <h2>Los Angeles</h2>
+                                            <span class="title">Los Angeles</span>
                                             <hr>
                                             <p>View details.</p>
                                         </div>
@@ -244,7 +244,7 @@
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
-                                            <h2>London, 2016</h2>
+                                            <span class="title">, 2016</span>
                                             <hr>
                                             <p>View details.</p>
                                         </div>
@@ -261,7 +261,7 @@
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
-                                            <h2>Bodynamics Photoshoot</h2>
+                                            <span class="title">Bodynamics Photoshoot</span>
                                             <hr>
                                             <p>View details.</p>
                                         </div>
@@ -278,7 +278,7 @@
                                 <div class="portfolio-column">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-content">
-                                            <h2>Browser Dashboard (React)</h2>
+                                            <span class="title">Browser Dashboard (React)</span>
                                             <hr>
                                             <p>View details.</p>
                                         </div>
