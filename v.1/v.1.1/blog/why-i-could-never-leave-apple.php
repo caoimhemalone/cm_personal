@@ -3,7 +3,7 @@
 
 <head>
 
-          <meta charset="utf-8" />
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>keyvah | Caoimhe Malone</title>
@@ -43,7 +43,7 @@
     <section class="blog-post-content">
         <?php include("../includes/other-pages-menu.php");?>
 
-        <div id="blog-header" style="background: url(../apple-products.jpeg); background-size: cover;">
+        <div id="blog-header" style="background: url(images/apple-products.jpeg); background-size: cover;">
             <div class="overlay"></div>
             <div class="single-post-title">
                 <h1>Why I could never leave Apple</h1>
