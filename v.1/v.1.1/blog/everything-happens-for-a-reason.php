@@ -43,7 +43,7 @@
     <section class="blog-post-content">
         <?php include("../includes/other-pages-menu.php");?>
 
-        <div id="blog-header" style="background: url(../mountain.jpg); background-size: cover;">
+        <div id="blog-header" style="background: url(images/mountain.jpg); background-size: cover;">
             <div class="overlay"></div>
             <div class="single-post-title">
                 <h1>Everything Happens For a Reason</h1>

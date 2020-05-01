@@ -43,7 +43,7 @@
     <section class="blog-post-content">
         <?php include("../includes/other-pages-menu.php");?>
 
-        <div id="blog-header" style="background: url(../bike.jpg); background-size: cover; background-position: bottom">
+        <div id="blog-header" style="background: url(images/bike.jpg); background-size: cover; background-position: bottom">
             <div class="overlay"></div>
             <div class="single-post-title">
                 <h1>Why I'll still cycle now that I have my drivers licence</h1>

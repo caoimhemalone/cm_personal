@@ -1,7 +1,7 @@
 <div class="post col-md-6">
     <div class="post-thumbnail">
         <a class="open-post" href="/blog/everything-happens-for-a-reason">
-            <img class="lazyload" data-src="mountain.jpg" alt="man on mountain">
+            <img class="lazyload" data-src="blog/images/mountain.jpg" alt="man on mountain">
         </a>
     </div>
     <div class="post-title">

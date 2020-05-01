@@ -1,7 +1,7 @@
 <div class="post col-md-6">
     <div class="post-thumbnail">
         <a class="open-post" href="/blog/why-ill-still-cycle-now-that-I-have-my-drivers-licence">
-            <img class="lazyload" data-src="bike.jpg" alt="bike">
+            <img class="lazyload" data-src="blog/images/bike.jpg" alt="bike">
         </a>
     </div>
     <div class="post-title">

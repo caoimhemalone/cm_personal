@@ -9,7 +9,7 @@
                 </div>
                 <div class="portfolio-overlay"></div>
             </div>
-                <img class="lazyload" data-src="../portfolio/web_design/thumbnails/hello-caoimhe.png" alt="Bodynamics Gym">
+                <img class="lazyload" data-src="../portfolio/web_design/thumbnails/hello-caoimhe.png" alt="React browser dashboard">
         </div>
     </a>
 </div>

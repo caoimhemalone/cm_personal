@@ -34,11 +34,11 @@
 
                         <?php include("portfolio/web_design/snippets/top_pa_sportsbooks_snippet.php");?>
 
-                        <?php include("portfolio/videography/snippets/new_york_snippet.php");?>
+                        <?php include("portfolio/videography/snippets/los_angeles_snippet.php");?>
 
                         <?php include("portfolio/web_design/snippets/casinos_co_nz_snippet.php");?>
 
-                        <?php include("portfolio/videography/snippets/new_york_snippet.php");?>
+                        <?php include("portfolio/videography/snippets/portugal_snippet.php");?>
 
                         <?php include("portfolio/photography/snippets/los_angeles_snippet.php");?>
 
