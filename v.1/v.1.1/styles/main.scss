@@ -1533,6 +1533,65 @@ body {
         border-radius: 50%;
     }
 
+    .similar-articles {
+        span {
+            text-align: center;
+            font-size: 18px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            display: block;
+            width: 100%;
+            color: #727272;
+            margin-bottom: 4em;
+        }
+
+        .article-item {
+            display: flex;
+            background-color: #fff;
+            box-shadow: rgba(255, 255, 255, 0.7);
+
+            &:last-child {
+                display: none; //temporary until do JS to not show current post
+            }
+
+            .article-card {
+                height: 100%;
+                display: flex;
+                width: 100%;
+
+                a {
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 100%;
+                }
+            }
+
+            .article-image {
+                height: 6em;
+                width: 100%;
+            }
+
+            .article-title {
+                background-color: #F1F3F6;
+                padding: 0.5em 1em;
+                height: 60%;
+                width: 100%;
+
+                @media only screen and (max-width: 580px) {
+                    margin-bottom: 5%;
+                }
+
+                @media only screen and (min-width: 580px) and (max-width: 991px) {
+                    height: 55%;
+                }
+
+                @media only screen and (min-width: 1200px) {
+                    height: 45%;
+                }
+            }
+        }
+    }
+
     //Contact
 
     .contact-block {
