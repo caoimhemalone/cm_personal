@@ -1,3 +1,5 @@
+<?php include("../includes/config.php");?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -89,7 +91,7 @@
                                 <li><a href="https://medium.com/@caoimhegmalone" target="_blank"><i class="ion-ios-book"></i></a> </li>
                                 <li><a href="https://www.youtube.com/keyvah" target="_blank"><i class="ion-social-youtube"></i></a> </li>
                             </ul>
-                            <?php include("../includes/similar-articles.php");?>
+                            <?php $BLOG_PAGE = $CURRENT_PAGE; include("../includes/similar-articles.php");?>
                         </div>
                     </div>
                 </div>

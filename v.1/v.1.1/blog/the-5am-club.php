@@ -1,3 +1,4 @@
+<?php include("../includes/config.php");?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,7 +7,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>keyvah | Caoimhe Malone</title>
+    <title><?php print $PAGE_TITLE;?></title>
     <meta name="description" content="key-vah.com | Caoimhe Malone">
     <meta name="author" content="Caoimhe Malone" />
     
@@ -92,17 +93,7 @@
                                 <li><a href="https://medium.com/@caoimhegmalone" target="_blank"><i class="ion-ios-book"></i></a> </li>
                                 <li><a href="https://www.youtube.com/keyvah" target="_blank"><i class="ion-social-youtube"></i></a> </li>
                             </ul>
-                            <!-- <div class="project-nav text-center">
-                                <span class="float-left">
-                                    <a class="open-project" href="project-5.html">&leftarrow; Previous Project</a>
-                                </span>
-                                                <span class="">
-                                    <a id="close-project" href="../layout.php"><i class="ion-grid"></i></a>
-                                </span>
-                                                <span class="float-right">
-                                    <a class="open-project" href="project-1.html">Next Project &rightarrow; </a>
-                                </span>
-                            </div> -->
+                            <?php $BLOG_PAGE = $CURRENT_PAGE; include("../includes/similar-articles.php");?>
                         </div>
                     </div>
                 </div>
@@ -114,26 +105,5 @@
     <script><?php include("../scripts/min/main.js");?></script>
     <script src="../scripts/plugins.min.js"></script>
     <script src="../Bootstrap/js/bootstrap.min.js"></script>
-    <!--<script>-->
-    <!--    jQuery(function($){-->
-    <!--       switch(window.location.hash){-->
-    <!--          case "resume":  $("body").addClass("resume-shown"); break;-->
-    <!--          case "portfolio":  $("body").addClass("portfolio-shown"); break;-->
-    <!--          case "blog":  $("body").addClass("blog-shown"); break;-->
-    <!--          case "about-me":  $("body").addClass(".about-me-shown"); break;-->
-    <!--       }-->
-    <!--    });-->
-    <!--</script>-->
-    
-<!--        <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.0.0/dist/lazyload.min.js"></script>-->
-<!--        <script>    -->
-        <!--// Set the options to make LazyLoad self-initialize -->
-<!--        var myLazyLoad = new LazyLoad({-->
-<!--    data_src: "src"-->
-<!--});-->
-<!--        window.lazyLoadOptions = {  -->
-<!--            elements_selector: ".lazyload",  -->
-<!--        };-->
-<!--    </script>-->
 </body>
 </html>

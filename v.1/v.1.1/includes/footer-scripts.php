@@ -15,7 +15,7 @@
 </script>
 <script src="Bootstrap/js/bootstrap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.0.0/dist/lazyload.min.js"></script>
-    <script>    
+<script>    
     // Set the options to make LazyLoad self-initialize 
     var myLazyLoad = new LazyLoad({
         data_src: "src"

@@ -1,3 +1,5 @@
+<?php include("../includes/config.php");?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,7 +8,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>keyvah | Caoimhe Malone</title>
+    <title><?php print $PAGE_TITLE;?></title>
     <meta name="description" content="AirPods silicone covers review | key-vah.com | Caoimhe Malone">
     <meta name="author" content="Caoimhe Malone" />
     
@@ -93,17 +95,7 @@
                                 <li><a href="https://medium.com/@caoimhegmalone" target="_blank"><i class="ion-ios-book"></i></a> </li>
                                 <li><a href="https://www.youtube.com/keyvah" target="_blank"><i class="ion-social-youtube"></i></a> </li>
                             </ul>
-                            <!-- <div class="project-nav text-center">
-                                <span class="float-left">
-                                    <a class="open-project" href="project-5.html">&leftarrow; Previous Project</a>
-                                </span>
-                                                <span class="">
-                                    <a id="close-project" href="../layout.php"><i class="ion-grid"></i></a>
-                                </span>
-                                                <span class="float-right">
-                                    <a class="open-project" href="project-1.html">Next Project &rightarrow; </a>
-                                </span>
-                            </div> -->
+                            <?php $BLOG_PAGE = $CURRENT_PAGE; include("../includes/similar-articles.php");?>
                         </div>
                     </div>
                 </div>
