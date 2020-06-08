@@ -5,13 +5,12 @@
             <h3 class="subheading">Hi I'm Caoimhe Malone and I'm a <strong> Professional Frontend Developer</strong> from Dublin, Ireland. I'm a part time Photographer who also has an interest in videography.</h3>
             <p>I'm a 24 year old Computer Science graduate. I'm a full time Frontend Developer who also does freelance Web Development and Photography. I enjoy making travel videos and I'm an avid cyclist. I cycle ~100KM a week commuting to work and travelling around Dublin. Add me on <a href="https://www.strava.com/athletes/23509081" target="_blank">Strava</a>.</p>
             <div class="info-list row">
-                <div class="col-sm-6"><span>Name : </span> Caoimhe Malone (key-vah)</div>
-                <div class="col-sm-6"><span>Date of birth : </span> September 2, 1995 </div>
-                <div class="col-sm-6"><span>Email : </span> <a href="mailto:caoimhegmalone@gmail.com" target="_top">caoimhegmalone@gmail.com</a></div>
-                <div class="col-sm-6"><span>Instagram : </span> <a href="https://www.instagram.com/caoimhemalone" target="_blank">@caoimhemalone</a></div>
+                <div class="col-sm-6"><span>Name: </span> Caoimhe Malone (key-vah)</div>
+                <div class="col-sm-6"><span>Email: </span> <a href="mailto:projects@key-vah.com" target="_top">projects@key-vah.com</a></div>
+                <div class="col-sm-6"><span>Instagram: </span> <a href="https://www.instagram.com/caoimhemalone" target="_blank">@caoimhemalone</a></div>
                  <div class="col-sm-6"><span>Twitter: </span> <a href="https://www.twitter.com/caoimhemalone95" target="_blank">@caoimhemalone95</a></div>
-                  <div class="col-sm-6"><span>Youtube : </span> <a href="https://www.youtube.com/keyvah" target="_blank">keyvah</a></div>
-                <div class="col-sm-6"><span>Interest : </span> freelance, part-time</div>
+                  <div class="col-sm-6"><span>Youtube: </span> <a href="https://www.youtube.com/keyvah" target="_blank">keyvah</a></div>
+                <div class="col-sm-6"><span>Interest: </span> freelance, part-time</div>
             </div>
         </div>
         <div class="block-content">
@@ -163,7 +162,7 @@
         
         <div class="row text-center">
             <div class="col-md-12 btn-email">        
-                <a class="btn lowercase" href="mailto:caoimhegmalone@gmail.com" target="_top">caoimhegmalone@gmail.com</a>
+                <a class="btn lowercase" href="mailto:projects@key-vah.com" target="_top">projects@key-vah.com</a>
             </div>
         </div>
     </section>
