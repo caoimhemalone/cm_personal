@@ -5,7 +5,7 @@
             <h3 class="block-title">My Blog</h3>
             <div class="row">
                 <!--LATEST POST-->
-                <?php include("blog/snippets/lockdown_faulure.php");?>
+                <?php include("blog/snippets/lockdown_failure.php");?>
                 <!--END OF LATEST POST-->
 
                 <?php include("blog/snippets/why_ill_still_cycle_snippet.php");?>
