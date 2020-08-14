@@ -45,7 +45,7 @@
     <section class="blog-post-content">
         <?php include("../includes/other-pages-menu.php");?>
 
-        <div id="blog-header" style="background: url(images/lockdown-failure.jpg); background-size: cover;">
+        <div id="blog-header" style="background: url(images/lockdown-failure.jpg); background-size: cover; background-position: center">
             <div class="overlay"></div>
             <div class="single-post-title">
                 <h1>Failing due to quarantine and lack of motivation</h1>
