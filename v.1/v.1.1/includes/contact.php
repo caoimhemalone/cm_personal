@@ -13,7 +13,7 @@
                                 <input type="email" class="form-control" id="email" placeholder="email*" name="email">
                             </div>
                             <div class="form-group mar-top-60">
-                                <textarea class="form-control" rows="10" name="comment" id="comment" placeholder="Your Message"></textarea>
+                                <textarea class="form-control" rows="10" name="message" id="comment" placeholder="Your Message"></textarea>
                             </div>
                             <div class="form-group mar-top-40">
                                 <input class="btn v7" id="submitBtn" type="submit" value="Send Message">
