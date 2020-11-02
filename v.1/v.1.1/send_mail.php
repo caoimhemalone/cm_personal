@@ -1,7 +1,8 @@
 <?php
 $message = $_POST['message'];
 $email = $_POST['email'];
-$subject = 'Enquiry from ' + $_POST['fname'];
+$fname = $_POST['fname'];
+$subject = "Enquiry from " . $fname;
 $recipient = "projects@key-vah.com";
 $formcontent=" From: $email \n Subject: $subject \n Message: $message";
 $mailheader = "From: $email \r\n";
