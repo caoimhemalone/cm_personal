@@ -1,4 +1,7 @@
 @theme {
     --color-retro-black: #1f1f1f;
+    --color-army-black: #171615;
+    --color-tech-white: #f5f5f5;
+    --color-neutral-stone: #a8a29e;
     --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
   }

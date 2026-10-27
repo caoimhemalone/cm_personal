@@ -8,9 +8,9 @@ function ProjectCard({ project }: ProjectCardProps) {
     return (
         <article
             key={project.title}
-            className="rounded-2xl border border-stone-200 bg-white p-6">
+            className="rounded-2xl border border-stone-200 bg-white p-6 text-stone-900">
               <h3 className="text-lg font-semibold">{project.title}</h3>
-              <p className="mt-2 leading-6 text-stone-600">
+              <p className="mt-6 max-w-xl text-lg leading-8 text-neutral-stone">
                 {project.description}
               </p>
               <ul className="mt-4 flex flex-wrap gap-2">

@@ -7,14 +7,14 @@ import Projects from './components/Projects';
 
 function SiteLayout() {
   return (
-    <>
+    <div className='min-h-screen bg-army-black text-tech-white'>
       <Header />
 
       <main className='mx-auto max-w-3xl px-6 py-12 sm:py-20'>
         <Outlet />
         <Footer />
       </main>
-    </>
+    </div>
   )
 }
 
