@@ -3,7 +3,8 @@ import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router'
 import './index.css'
 import App from './App.tsx'
-import { ErrorBoundary, installClientErrorLogging } from './ErrorBoundary.tsx'
+import { ErrorBoundary } from './ErrorBoundary.tsx'
+import { installClientErrorLogging } from './clientErrorLogging.ts'
 
 installClientErrorLogging()
 
