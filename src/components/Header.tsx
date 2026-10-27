@@ -15,7 +15,7 @@ function Header() {
                     CK
                 </NavLink>
 
-                <nav aria-label="Main navigation" className="flex gap-5 text-l font-medium">
+                <nav aria-label="Main navigation" className="flex gap-5 text-lg font-medium">
                     {links.map((link) => (
                         <NavLink
                         key={link.to}

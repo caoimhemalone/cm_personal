@@ -43,7 +43,7 @@ function ContactPage() {
     <section>
       <h1 className='text-3xl font-semibold'>Contact</h1>
       <p className='mt-4 text-stone-600'>
-        <a className='underline' href="mailto:caoimhegmalone@gmail.com">
+        <a className='underline' href="">
           Email Me
         </a>
       </p>
