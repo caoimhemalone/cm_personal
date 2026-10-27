@@ -9,13 +9,13 @@ const links = [
 
 function Header() {
     return (
-        <header className="bg-neutral-900 text-white">
+        <header className="bg-retro-black text-white">
             <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
                 <NavLink to="/" className="font-semibold tracking-tight">
                     CK
                 </NavLink>
 
-                <nav aria-label="Main navigation" className="flex-gap-5 text-sm">
+                <nav aria-label="Main navigation" className="flex gap-5 text-l font-medium">
                     {links.map((link) => (
                         <NavLink
                         key={link.to}
