@@ -13,8 +13,8 @@ export type ExperienceEntry = {
       description: 'Add one or two sentences about your responsibilities and impact.',
     },
     {
-      company: 'Replace with employer',
-      role: 'Replace with job title',
+      company: 'Replace with employe',
+      role: 'Replace with job titl',
       period: 'Start date – end date',
       description: 'Describe another role, focusing on relevant work and outcomes.',
     },

@@ -43,6 +43,7 @@ function Footer() {
                                 target="_blank"
                                 rel="noreferrer"
                                 aria-label={name}
+                                key={href}
                                 className="inline-flex rounded-full p-2 hover:bg-white/10 hover:text-tech-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
                             >
                                 <Icon  aria-hidden="true" className="h-6 w-6" />
