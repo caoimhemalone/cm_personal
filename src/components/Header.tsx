@@ -9,7 +9,7 @@ const links = [
 
 function Header() {
     return (
-        <header className="bg-retro-black text-white">
+        <header className="bg-retro-black text-white sticky top-0 z-50">
             <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
                 <NavLink to="/" className="font-semibold tracking-tight">
                     CK
