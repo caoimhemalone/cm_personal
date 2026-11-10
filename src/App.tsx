@@ -14,8 +14,9 @@ function SiteLayout() {
 
       <main className='mx-auto max-w-3xl px-6 py-12 sm:py-20'>
         <Outlet />
-        <Footer />
       </main>
+
+      <Footer />
     </div>
   )
 }
