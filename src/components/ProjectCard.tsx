@@ -30,24 +30,34 @@ function formatProjectDuration(startDate: string, endDate: string): string {
 
 function ProjectCard({ project }: ProjectCardProps) {
   const [thumbnailUrl, setThumbnailUrl] = useState<string | null>(null)
+
   const duration = formatProjectDuration(
-    project.acf.start_date, 
-    project.acf.end_date
+    project.acf.start_date,
+    project.acf.end_date,
   )
+
   useEffect(() => {
     const mediaId = project.acf.project_thumbnail
 
-    if (!mediaId) {
-      setThumbnailUrl(null)
-      return
-    }
+    if (!mediaId) return
+
+    let cancelled = false
 
     getMediaUrl(mediaId)
-      .then(setThumbnailUrl)
-      .catch((error: unknown) => {
-        console.error('Could not load project thumbnail:', error)
-        setThumbnailUrl(null)
+      .then((url) => {
+        if (!cancelled) {
+          setThumbnailUrl(url)
+        }
       })
+      .catch((error: unknown) => {
+        if (!cancelled) {
+          console.error('Could not load project thumbnail:', error)
+        }
+      })
+
+    return () => {
+      cancelled = true
+    }
   }, [project.acf.project_thumbnail])
 
     return (
