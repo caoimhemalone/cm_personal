@@ -1,4 +1,5 @@
 import { Outlet, Route, Routes } from 'react-router';
+import Experience from './components/Experience';
 import ExperienceWith from './components/ExperienceWith';
 import Footer from './components/Footer';
 import Header from './components/Header';
@@ -25,6 +26,7 @@ function HomePage() {
       <Hero />
       <ExperienceWith />
       <Projects />
+      <Experience />
     </>
   )
 }
